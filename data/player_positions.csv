@@ -1,0 +1,426 @@
+player_name,position,match_source
+49ers,DEF,defense
+A.J. Brown,WR,nflverse
+A.J. Green,WR,nflverse_ambiguous
+AJ Dillon,RB,nflverse
+Aaron Jones Sr.,RB,nflverse_no_suffix
+Aaron Rodgers,QB,nflverse
+Adam Thielen,WR,nflverse
+Adrian Peterson,RB,nflverse_ambiguous
+Alex Collins,RB,nflverse
+Alex Smith,QB,nflverse_ambiguous
+Alexander Mattison,RB,nflverse
+Allen Hurns,WR,nflverse
+Allen Lazard,WR,nflverse
+Allen Robinson,WR,nflverse
+Alshon Jeffery,WR,nflverse
+Alvin Kamara,RB,nflverse
+Amari Cooper,WR,nflverse
+Amon-Ra St. Brown,WR,nflverse
+Andrew Luck,QB,nflverse
+Anthony Miller,WR,nflverse_ambiguous
+Anthony Richardson Sr.,QB,nflverse_no_suffix
+Antonio Brown,WR,nflverse_ambiguous
+Antonio Gibson,RB,nflverse_ambiguous
+Ashton Jeanty,RB,nflverse
+Austin Ekeler,RB,nflverse
+Austin Hooper,TE,nflverse
+Baker Mayfield,QB,nflverse
+Bears,DEF,defense
+Ben Roethlisberger,QB,nflverse
+Bengals,DEF,defense
+Bhayshul Tuten,RB,nflverse
+Bijan Robinson,RB,nflverse
+Bills,DEF,defense
+Blake Corum,RB,nflverse
+Bo Nix,QB,nflverse
+Boston Scott,RB,nflverse
+Braelon Allen,RB,nflverse
+Brandin Cooks,WR,nflverse
+Brandon Aiyuk,WR,nflverse
+Brandon Aubrey,K,nflverse
+Brandon McManus,K,nflverse
+Breece Hall,RB,nflverse
+Brenton Strange,TE,nflverse
+Brian Robinson,RB,nflverse
+Brian Thomas Jr.,WR,nflverse
+Brock Bowers,TE,nflverse
+Brock Purdy,QB,nflverse
+Broncos,DEF,defense
+Browns,DEF,defense
+Buccaneers,DEF,defense
+Bucky Irving,RB,nflverse
+C.J. Stroud,QB,nflverse
+Cairo Santos,K,nflverse
+Caleb Williams,QB,nflverse
+Calvin Ridley,WR,nflverse
+Cam Akers,RB,nflverse
+Cam Little,K,nflverse
+Cam Newton,QB,nflverse_ambiguous
+Cam Skattebo,RB,nflverse
+Cameron Dicker,K,nflverse
+Cardinals,DEF,defense
+Carlos Hyde,RB,nflverse
+Carson Wentz,QB,nflverse
+CeeDee Lamb,WR,nflverse
+Chargers,DEF,defense
+Chase Brown,RB,nflverse
+Chase Claypool,WR,nflverse
+Chase Edmonds,RB,nflverse
+Chase McLaughlin,K,nflverse
+Chiefs,DEF,defense
+Chig Okonkwo,TE,nflverse
+Chris Carson,RB,nflverse
+Chris Godwin Jr.,WR,nflverse
+Chris Herndon,TE,nflverse
+Chris Hogan,WR,nflverse
+Chris Olave,WR,nflverse
+Chris Thompson,RB,nflverse_ambiguous
+Christian Kirk,WR,nflverse
+Christian McCaffrey,RB,nflverse
+Christian Watson,WR,nflverse
+Chuba Hubbard,RB,nflverse
+Clyde Edwards-Helaire,RB,nflverse
+Cole Kmet,TE,nflverse
+Colston Loveland,TE,nflverse
+Colts,DEF,defense
+Commanders,DEF,defense
+Cooper Kupp,WR,nflverse
+Cordarrelle Patterson,RB,nflverse
+Corey Davis,WR,nflverse
+Courtland Sutton,WR,nflverse
+Cowboys,DEF,defense
+Curtis Samuel,WR,nflverse
+D'Andre Swift,RB,nflverse
+D'Onta Foreman,RB,nflverse
+DJ Chark,WR,nflverse
+DJ Moore,WR,nflverse_ambiguous
+DK Metcalf,WR,nflverse
+Dak Prescott,QB,nflverse
+Dallas Goedert,TE,nflverse
+Dalton Kincaid,TE,nflverse
+Dalton Schultz,TE,nflverse
+Dalvin Cook,RB,nflverse
+Dameon Pierce,RB,nflverse
+Damien Harris,RB,nflverse
+Damien Williams,RB,nflverse
+Dan Bailey,K,nflverse
+Daniel Carlson,K,nflverse
+Daniel Jones,QB,nflverse
+Dante Pettis,WR,nflverse
+Dare Ogunbowale,RB,nflverse
+Darius Slayton,WR,nflverse
+Darnell Mooney,WR,nflverse
+Darrell Henderson Jr.,RB,nflverse_no_suffix
+Darren Waller,TE,nflverse
+Davante Adams,WR,nflverse
+David Johnson,RB,nflverse_ambiguous
+David Montgomery,RB,nflverse
+David Njoku,TE,nflverse
+Dawson Knox,TE,nflverse
+De'Von Achane,RB,nflverse
+DeAndre Hopkins,WR,nflverse
+DeSean Jackson,WR,nflverse
+DeVante Parker,WR,nflverse
+DeVonta Smith,WR,nflverse_ambiguous
+Dede Westbrook,WR,nflverse
+Deebo Samuel,WR,nflverse_nickname
+Delanie Walker,TE,nflverse
+Demaryius Thomas,WR,nflverse
+Derek Carr,QB,nflverse
+Derrick Henry,RB,nflverse
+Derrius Guice,RB,nflverse
+Deshaun Watson,QB,nflverse
+Devin Funchess,WR,nflverse
+Devin Singletary,RB,nflverse
+Devonta Freeman,RB,nflverse
+Devontae Booker,RB,nflverse
+Dez Bryant,WR,nflverse
+Dion Lewis,RB,nflverse
+Diontae Johnson,WR,nflverse
+Dolphins,DEF,defense
+Donte Moncrief,WR,nflverse
+Doug Baldwin,WR,nflverse
+Drake London,WR,nflverse
+Drake Maye,QB,nflverse
+Drew Brees,QB,nflverse
+Duke Johnson,RB,nflverse
+Dustin Hopkins,K,nflverse
+Eagles,DEF,defense
+Elijah Mitchell,RB,nflverse
+Elijah Moore,WR,nflverse
+Emeka Egbuka,WR,nflverse
+Emmanuel Sanders,WR,nflverse
+Eric Ebron,TE,nflverse
+Evan Engram,TE,nflverse
+Evan McPherson,K,nflverse
+Ezekiel Elliott,RB,nflverse
+Gabe Davis,WR,nflverse
+Garrett Wilson,WR,nflverse
+Geno Smith,QB,nflverse
+George Kittle,TE,nflverse
+George Pickens,WR,nflverse
+Golden Tate,WR,nflverse
+Graham Gano,K,nflverse
+Greg Olsen,TE,nflverse
+Greg Zuerlein,K,nflverse
+Gus Edwards,RB,nflverse
+Harrison Butker,K,nflverse
+Hayden Hurst,TE,nflverse
+Henry Ruggs III,WR,nflverse
+Hollywood Brown,WR,nflverse_nickname
+Hunter Henry,TE,nflverse
+Hunter Renfrow,WR,nflverse
+Isaiah Crowell,RB,nflverse
+Isaiah McKenzie,WR,nflverse
+Isiah Pacheco,RB,nflverse
+J.J. McCarthy,QB,nflverse
+J.K. Dobbins,RB,nflverse
+Ja'Marr Chase,WR,nflverse
+Jacory Croskey-Merritt,RB,nflverse
+Jaguars,DEF,defense
+Jahan Dotson,WR,nflverse
+Jahmyr Gibbs,RB,nflverse
+Jake Bates,K,nflverse
+Jake Elliott,K,nflverse
+Jake Ferguson,TE,nflverse
+Jake Moody,K,nflverse
+Jakobi Meyers,WR,nflverse
+Jalen Hurts,QB,nflverse
+Jalen Reagor,WR,nflverse
+Jalen Tolbert,WR,nflverse
+Jamaal Williams,RB,nflverse
+Jameis Winston,QB,nflverse
+James Conner,RB,nflverse
+James Cook III,RB,nflverse_no_suffix
+James Robinson,RB,nflverse_ambiguous
+James Washington,WR,nflverse_ambiguous
+James White,RB,nflverse_ambiguous
+Jameson Williams,WR,nflverse
+Jamison Crowder,WR,nflverse
+Jared Cook,TE,nflverse
+Jared Goff,QB,nflverse
+Jarvis Landry,WR,nflverse
+Jason Sanders,K,nflverse
+Jauan Jennings,WR,nflverse
+Javonte Williams,RB,nflverse
+Jaxon Smith-Njigba,WR,nflverse
+Jay Ajayi,RB,nflverse
+Jayden Daniels,QB,nflverse
+Jayden Reed,WR,nflverse
+Jaydon Blue,RB,nflverse
+Jaylen Samuels,RB,nflverse
+Jaylen Waddle,WR,nflverse
+Jaylen Warren,RB,nflverse
+Jerick McKinnon,RB,nflverse
+Jerome Ford,RB,nflverse
+Jerry Jeudy,WR,nflverse
+Jets,DEF,defense
+Jimmy Garoppolo,QB,nflverse
+Jimmy Graham,TE,nflverse
+Joe Burrow,QB,nflverse
+Joe Mixon,RB,nflverse
+John Brown,WR,nflverse
+Jonathan Taylor,RB,nflverse
+Jonathon Brooks,RB,nflverse
+Jonnu Smith,TE,nflverse
+Jordan Addison,WR,nflverse
+Jordan Howard,RB,nflverse
+Jordan Love,QB,nflverse
+Jordan Mason,RB,nflverse
+Jordan Reed,TE,nflverse
+Jordy Nelson,WR,nflverse
+Josh Allen,QB,nflverse_ambiguous
+Josh Gordon,WR,nflverse
+Josh Jacobs,RB,nflverse
+Joshua Palmer,WR,manual
+JuJu Smith-Schuster,WR,nflverse
+Julian Edelman,WR,nflverse
+Julio Jones,WR,nflverse
+Justice Hill,RB,nflverse
+Justin Fields,QB,nflverse
+Justin Herbert,QB,nflverse
+Justin Jackson,RB,nflverse_ambiguous
+Justin Jefferson,WR,nflverse_ambiguous
+Justin Tucker,K,nflverse
+Ka'imi Fairbairn,K,nflverse
+Kadarius Toney,WR,nflverse
+Kaleb Johnson,RB,nflverse_ambiguous
+Kareem Hunt,RB,nflverse
+Keelan Cole Sr.,WR,nflverse_no_suffix
+Keenan Allen,WR,nflverse
+Kelvin Benjamin,WR,nflverse
+Kendre Miller,RB,nflverse
+Kenneth Barber,RB,manual
+Kenneth Walker III,RB,nflverse
+Kenny Gainwell,RB,nflverse
+Kenny Golladay,WR,nflverse
+Kenyan Drake,RB,nflverse
+Kerryon Johnson,RB,nflverse
+Khalil Herbert,RB,nflverse
+Khalil Shakir,WR,nflverse
+Kirk Cousins,QB,nflverse
+Kyle Monangai,RB,nflverse
+Kyle Pitts Sr.,TE,nflverse_no_suffix
+Kyle Rudolph,TE,nflverse
+Kyler Murray,QB,nflverse
+Kyren Williams,RB,nflverse
+Ladd McConkey,WR,nflverse
+Lamar Jackson,QB,nflverse_ambiguous
+Lamar Miller,RB,nflverse
+Larry Fitzgerald,WR,nflverse
+Latavius Murray,RB,nflverse
+Laviska Shenault Jr.,WR,nflverse
+Le'Veon Bell,RB,nflverse
+LeGarrette Blount,RB,nflverse
+LeSean McCoy,RB,nflverse
+Leonard Fournette,RB,nflverse
+Lions,DEF,defense
+Logan Thomas,TE,nflverse
+Luke Musgrave,TE,nflverse
+Malik Nabers,WR,nflverse
+MarShawn Lloyd,RB,nflverse
+Mark Andrews,TE,nflverse
+Mark Ingram II,RB,nflverse_no_suffix
+Marlon Mack,RB,nflverse
+Marquez Callaway,WR,nflverse
+Marquez Valdes-Scantling,WR,nflverse
+Marquise Goodwin,WR,nflverse
+Marshawn Lynch,RB,nflverse
+Marvin Harrison Jr.,WR,nflverse
+Marvin Jones Jr.,LB,nflverse
+Mason Taylor,TE,nflverse
+Matt Breida,RB,nflverse
+Matt Bryant,K,nflverse
+Matt Gay,K,nflverse_ambiguous
+Matt Prater,K,nflverse
+Matt Ryan,QB,nflverse
+Matthew Golden,WR,nflverse
+Matthew Stafford,QB,nflverse
+Mecole Hardman Jr.,WR,nflverse_no_suffix
+Melvin Gordon III,RB,nflverse_no_suffix
+Michael Carter,RB,nflverse_ambiguous
+Michael Crabtree,WR,nflverse
+Michael Gallup,WR,nflverse
+Michael Mayer,TE,nflverse
+Michael Penix Jr.,QB,nflverse
+Michael Pittman Jr.,RB,nflverse_no_suffix
+Michael Thomas,WR,nflverse_ambiguous
+Mike Davis,RB,nflverse_ambiguous
+Mike Evans,WR,nflverse_ambiguous
+Mike Gesicki,TE,nflverse
+Mike Williams,WR,nflverse_ambiguous
+Miles Sanders,RB,nflverse
+Mitchell Trubisky,QB,nflverse
+Myles Gaskin,RB,nflverse
+Najee Harris,RB,nflverse
+Nelson Agholor,WR,nflverse
+Nick Chubb,RB,nflverse
+Nico Collins,WR,nflverse
+Noah Fant,TE,nflverse
+Nyheim Miller-Hines,RB,nflverse_nickname
+O.J. Howard,TE,nflverse
+Odell Beckham Jr.,WR,nflverse
+Ollie Gordon II,RB,nflverse
+Omarion Hampton,RB,nflverse
+Packers,DEF,defense
+Panthers,DEF,defense
+Pat Freiermuth,TE,nflverse
+Patrick Mahomes,QB,nflverse
+Patriots,DEF,defense
+Philip Rivers,QB,nflverse
+Phillip Lindsay,RB,nflverse
+Pierre Garcon,WR,nflverse
+Puka Nacua,WR,nflverse
+Quentin Johnston,WR,nflverse
+Quinshon Judkins,RB,nflverse
+RJ Harvey,RB,nflverse
+Rachaad White,RB,nflverse
+Raheem Mostert,RB,nflverse
+Rams,DEF,defense
+Rashaad Penny,RB,nflverse
+Rashee Rice,WR,nflverse
+Rashid Shaheed,WR,nflverse
+Rashod Bateman,WR,nflverse
+Ravens,DEF,defense
+Rex Burkhead,RB,nflverse
+Rhamondre Stevenson,RB,nflverse
+Ricky Pearsall,WR,nflverse
+Rico Dowdle,RB,nflverse
+Riley Patterson,K,nflverse
+Rob Gronkowski,TE,nflverse
+Robbie Chosen,WR,nflverse
+Robbie Gould,K,nflverse
+Robert Tonyan,TE,nflverse
+Robert Woods,WR,nflverse_ambiguous
+Rodrigo Blankenship,K,nflverse
+Rome Odunze,WR,nflverse
+Ronald Jones,RB,nflverse
+Roschon Johnson,RB,nflverse
+Royce Freeman,RB,nflverse
+Russell Wilson,QB,nflverse
+Ryan Tannehill,QB,nflverse
+Saints,DEF,defense
+Sam LaPorta,TE,nflverse
+Sammy Watkins,WR,nflverse
+Saquon Barkley,RB,nflverse
+Seahawks,DEF,defense
+Sean Tucker,RB,nflverse
+Skyy Moore,WR,nflverse
+Sony Michel,RB,nflverse
+Steelers,DEF,defense
+Stefon Diggs,WR,nflverse
+Stephen Gostkowski,K,nflverse
+Sterling Shepard,WR,nflverse
+T.J. Hockenson,TE,nflverse
+T.Y. Hilton,WR,nflverse
+Tank Bigsby,RB,nflverse
+Tank Dell,WR,nflverse
+Tarik Cohen,RB,nflverse
+Tee Higgins,WR,nflverse
+Terrace Marshall Jr.,WR,nflverse
+Terry McLaurin,WR,nflverse
+Tetairoa McMillan,WR,nflverse
+Tevin Coleman,RB,nflverse
+Texans,DEF,defense
+Todd Gurley,RB,nflverse
+Tom Brady,QB,nflverse
+Tony Pollard,RB,nflverse
+Travis Etienne Jr.,RB,nflverse_no_suffix
+Travis Hunter,CB,nflverse
+Travis Kelce,TE,nflverse
+TreVeyon Henderson,RB,nflverse
+Trevor Lawrence,QB,nflverse
+Trey Benson,RB,nflverse
+Trey Burton,TE,nflverse
+Trey Lance,QB,nflverse
+Trey McBride,TE,nflverse
+Trey Sermon,RB,nflverse
+Treylon Burks,WR,nflverse
+Tua Tagovailoa,QB,nflverse
+Tucker Kraft,TE,nflverse
+Tyjae Spears,RB,nflverse
+Tyler Allgeier,RB,nflverse
+Tyler Bass,K,nflverse
+Tyler Boyd,WR,nflverse
+Tyler Eifert,TE,nflverse
+Tyler Higbee,TE,nflverse
+Tyler Lockett,WR,nflverse
+Tyler Warren,TE,nflverse
+Tyreek Hill,WR,nflverse
+Tyrell Williams,WR,nflverse
+Tyrone Tracy Jr.,RB,nflverse
+Vance McDonald,TE,nflverse
+Vikings,DEF,defense
+Wayne Gallman,RB,nflverse
+Wil Lutz,K,nflverse
+Will Fuller V,WR,nflverse_no_suffix
+Xavier Worthy,WR,nflverse
+Younghoe Koo,K,nflverse
+Zach Charbonnet,RB,nflverse
+Zach Ertz,TE,nflverse
+Zach Wilson,QB,nflverse
+Zack Moss,RB,nflverse
+Zamir White,RB,nflverse
+Zane Gonzalez,K,nflverse
+Zay Flowers,WR,nflverse

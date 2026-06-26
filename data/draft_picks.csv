@@ -1,0 +1,1201 @@
+season,round,pick_in_round,overall_pick,team_name,player_name,is_keeper,auction_price
+2018,0,0,1,PokerA9,Todd Gurley,False,65
+2018,0,0,2,Dave H's Team,Le'Veon Bell,False,66
+2018,0,0,3,PokerA9,Antonio Brown,False,61
+2018,0,0,4,Jamie's Fine Team,Kareem Hunt,False,46
+2018,0,0,5,Going Streaking,Stefon Diggs,False,30
+2018,0,0,6,Eric's Team,Saquon Barkley,False,68
+2018,0,0,7,OBJYN,Harrison Butker,False,1
+2018,0,0,8,Eric's Team,Drew Brees,False,11
+2018,0,0,9,Going Streaking,Ezekiel Elliott,False,63
+2018,0,0,10,Dave H's Team,David Johnson,False,66
+2018,0,0,11,angry cat,Russell Wilson,False,19
+2018,0,0,12,Gonna Get a TD,DeAndre Hopkins,False,61
+2018,0,0,13,OBJYN,Odell Beckham Jr.,False,57
+2018,0,0,14,Dave H's Team,Rob Gronkowski,False,33
+2018,0,0,15,angry cat,Davante Adams,False,41
+2018,0,0,16,OBJYN,Michael Thomas,False,44
+2018,0,0,17,Eric's Team,Aaron Rodgers,False,36
+2018,0,0,18,Good Times,Melvin Gordon III,False,46
+2018,0,0,19,Good Times,Julio Jones,False,46
+2018,0,0,20,Jamie's Fine Team,Devonta Freeman,False,32
+2018,0,0,21,PokerA9,Jaguars,False,14
+2018,0,0,22,angry cat,Josh Gordon,False,27
+2018,0,0,23,Gonna Get a TD,Larry Fitzgerald,False,25
+2018,0,0,24,angry cat,Tyreek Hill,False,25
+2018,0,0,25,Dave H's Team,T.Y. Hilton,False,15
+2018,0,0,26,angry cat,Joe Mixon,False,19
+2018,0,0,27,PokerA9,Tom Brady,False,16
+2018,0,0,28,Dave H's Team,Carson Wentz,False,9
+2018,0,0,29,Good Times,Keenan Allen,False,27
+2018,0,0,30,Going Streaking,A.J. Green,False,30
+2018,0,0,31,Who is John Galt?,Greg Olsen,False,13
+2018,0,0,32,Good Times,Alvin Kamara,False,70
+2018,0,0,33,Going Streaking,Travis Kelce,False,19
+2018,0,0,34,angry cat,Jordan Howard,False,29
+2018,0,0,35,Who is John Galt?,Golden Tate,False,15
+2018,0,0,36,Gonna Get a TD,Kenyan Drake,False,21
+2018,0,0,37,Gonna Get a TD,Royce Freeman,False,15
+2018,0,0,38,Eric's Team,Jerick McKinnon,False,14
+2018,0,0,39,Who is John Galt?,Leonard Fournette,False,42
+2018,0,0,40,OBJYN,Christian McCaffrey,False,28
+2018,0,0,41,PokerA9,Kyle Rudolph,False,8
+2018,0,0,42,Who is John Galt?,Dalvin Cook,False,33
+2018,0,0,43,Eric's Team,Zach Ertz,False,13
+2018,0,0,44,Gonna Get a TD,Mike Evans,False,25
+2018,0,0,45,angry cat,JuJu Smith-Schuster,False,10
+2018,0,0,46,Gonna Get a TD,Derrick Henry,False,9
+2018,0,0,47,Going Streaking,LeSean McCoy,False,13
+2018,0,0,48,Jamie's Fine Team,Kirk Cousins,False,4
+2018,0,0,49,Gonna Get a TD,Alex Collins,False,13
+2018,0,0,50,Jamie's Fine Team,Demaryius Thomas,False,16
+2018,0,0,51,Going Streaking,Adam Thielen,False,15
+2018,0,0,52,Who is John Galt?,Jay Ajayi,False,12
+2018,0,0,53,Going Streaking,Deshaun Watson,False,21
+2018,0,0,54,angry cat,Emmanuel Sanders,False,4
+2018,0,0,55,Who is John Galt?,Cam Newton,False,6
+2018,0,0,56,angry cat,Corey Davis,False,8
+2018,0,0,57,PokerA9,Sammy Watkins,False,6
+2018,0,0,58,Eric's Team,Jarvis Landry,False,5
+2018,0,0,59,Jamie's Fine Team,Amari Cooper,False,20
+2018,0,0,60,Eric's Team,Allen Robinson,False,9
+2018,0,0,61,PokerA9,Chris Thompson,False,4
+2018,0,0,62,Who is John Galt?,Lamar Miller,False,9
+2018,0,0,63,Who is John Galt?,Eagles,False,4
+2018,0,0,64,Jamie's Fine Team,Evan Engram,False,3
+2018,0,0,65,Who is John Galt?,Brandin Cooks,False,6
+2018,0,0,66,Who is John Galt?,Mark Ingram II,False,9
+2018,0,0,67,Eric's Team,Alshon Jeffery,False,10
+2018,0,0,68,Jamie's Fine Team,Texans,False,2
+2018,0,0,69,Who is John Galt?,Jimmy Graham,False,7
+2018,0,0,70,Jamie's Fine Team,Matthew Stafford,False,4
+2018,0,0,71,Jamie's Fine Team,Justin Tucker,False,2
+2018,0,0,72,OBJYN,Jimmy Garoppolo,False,8
+2018,0,0,73,Who is John Galt?,Doug Baldwin,False,9
+2018,0,0,74,angry cat,Rex Burkhead,False,3
+2018,0,0,75,Gonna Get a TD,Chris Hogan,False,6
+2018,0,0,76,Gonna Get a TD,Kerryon Johnson,False,9
+2018,0,0,77,PokerA9,Marshawn Lynch,False,5
+2018,0,0,78,Going Streaking,Chargers,False,2
+2018,0,0,79,Gonna Get a TD,Patrick Mahomes,False,7
+2018,0,0,80,PokerA9,Jared Goff,False,2
+2018,0,0,81,PokerA9,Jake Elliott,False,1
+2018,0,0,82,Eric's Team,Marvin Jones Jr.,False,4
+2018,0,0,83,Eric's Team,Stephen Gostkowski,False,3
+2018,0,0,84,PokerA9,Michael Crabtree,False,3
+2018,0,0,85,Jamie's Fine Team,Ronald Jones,False,3
+2018,0,0,86,Eric's Team,Rashaad Penny,False,5
+2018,0,0,87,OBJYN,Tarik Cohen,False,4
+2018,0,0,88,Going Streaking,Robert Woods,False,1
+2018,0,0,89,Who is John Galt?,Greg Zuerlein,False,2
+2018,0,0,90,Who is John Galt?,Matt Ryan,False,1
+2018,0,0,91,Gonna Get a TD,Eric Ebron,False,2
+2018,0,0,92,Dave H's Team,Nelson Agholor,False,1
+2018,0,0,93,PokerA9,Devin Funchess,False,4
+2018,0,0,94,OBJYN,Marquise Goodwin,False,9
+2018,0,0,95,Gonna Get a TD,Adrian Peterson,False,3
+2018,0,0,96,OBJYN,Trey Burton,False,11
+2018,0,0,97,Jamie's Fine Team,Dion Lewis,False,7
+2018,0,0,98,PokerA9,Dez Bryant,False,2
+2018,0,0,99,Gonna Get a TD,Matt Prater,False,1
+2018,0,0,100,Who is John Galt?,Jordy Nelson,False,3
+2018,0,0,101,angry cat,O.J. Howard,False,3
+2018,0,0,102,Eric's Team,Julian Edelman,False,2
+2018,0,0,103,angry cat,Vikings,False,3
+2018,0,0,104,Jamie's Fine Team,Philip Rivers,False,2
+2018,0,0,105,Jamie's Fine Team,Carlos Hyde,False,4
+2018,0,0,106,angry cat,Hunter Henry,False,1
+2018,0,0,107,OBJYN,Jamaal Williams,False,1
+2018,0,0,108,Dave H's Team,Will Fuller V,False,2
+2018,0,0,109,Gonna Get a TD,Ravens,False,1
+2018,0,0,110,PokerA9,Delanie Walker,False,4
+2018,0,0,111,Dave H's Team,Bears,False,1
+2018,0,0,112,Eric's Team,Rams,False,3
+2018,0,0,113,Good Times,Cooper Kupp,False,1
+2018,0,0,114,Jamie's Fine Team,Keelan Cole Sr.,False,3
+2018,0,0,115,Jamie's Fine Team,Nick Chubb,False,8
+2018,0,0,116,OBJYN,Sony Michel,False,1
+2018,0,0,117,Going Streaking,Andrew Luck,False,1
+2018,0,0,118,OBJYN,Aaron Jones Sr.,False,2
+2018,0,0,119,Eric's Team,Tevin Coleman,False,5
+2018,0,0,120,Dave H's Team,Ben Roethlisberger,False,1
+2018,0,0,121,Gonna Get a TD,David Njoku,False,2
+2018,0,0,122,OBJYN,Jamison Crowder,False,2
+2018,0,0,123,angry cat,LeGarrette Blount,False,1
+2018,0,0,124,OBJYN,Anthony Miller,False,8
+2018,0,0,125,PokerA9,Marlon Mack,False,2
+2018,0,0,126,Eric's Team,Kelvin Benjamin,False,2
+2018,0,0,127,Good Times,Kenneth Barber,False,1
+2018,0,0,128,angry cat,Chris Carson,False,1
+2018,0,0,129,OBJYN,DJ Moore,False,1
+2018,0,0,130,Going Streaking,Sterling Shepard,False,1
+2018,0,0,131,Dave H's Team,Devontae Booker,False,1
+2018,0,0,132,Good Times,Pierre Garcon,False,1
+2018,0,0,133,OBJYN,Broncos,False,1
+2018,0,0,134,Going Streaking,Wil Lutz,False,1
+2018,0,0,135,Dave H's Team,Austin Ekeler,False,1
+2018,0,0,136,Good Times,Isaiah Crowell,False,1
+2018,0,0,137,Going Streaking,Matt Bryant,False,1
+2018,0,0,138,Dave H's Team,Mike Gesicki,False,1
+2018,0,0,139,Good Times,Kenny Golladay,False,1
+2018,0,0,140,Going Streaking,Robbie Chosen,False,1
+2018,0,0,141,Dave H's Team,Tyrell Williams,False,1
+2018,0,0,142,Good Times,George Kittle,False,1
+2018,0,0,143,Going Streaking,Tyler Eifert,False,1
+2018,0,0,144,Dave H's Team,Allen Hurns,False,1
+2018,0,0,145,Good Times,Jameis Winston,False,1
+2018,0,0,146,Dave H's Team,Dan Bailey,False,1
+2018,0,0,147,Good Times,Alex Smith,False,1
+2018,0,0,148,Good Times,Jordan Reed,False,1
+2018,0,0,149,Good Times,Panthers,False,1
+2018,0,0,150,Good Times,Graham Gano,False,1
+2019,0,0,1,Going Streaking,Ezekiel Elliott,False,54
+2019,0,0,2,Good Times,David Johnson,False,47
+2019,0,0,3,Going Streaking,Alvin Kamara,False,69
+2019,0,0,4,Whiskey DITKA,Deshaun Watson,False,19
+2019,0,0,5,Al's Team,Leonard Fournette,False,35
+2019,0,0,6,Eric's Team,Aaron Rodgers,False,20
+2019,0,0,7,PokerA9,Melvin Gordon III,False,21
+2019,0,0,8,PokerA9,Antonio Brown,False,36
+2019,0,0,9,Whiskey DITKA,Le'Veon Bell,False,49
+2019,0,0,10,Baker Aker FTW,James Conner,False,50
+2019,0,0,11,Al's Team,Julio Jones,False,51
+2019,0,0,12,Whiskey DITKA,T.Y. Hilton,False,16
+2019,0,0,13,Whiskey DITKA,David Montgomery,False,51
+2019,0,0,14,PokerA9,Phillip Lindsay,False,18
+2019,0,0,15,Eric's Team,Davante Adams,False,56
+2019,0,0,16,Whiskey DITKA,Zach Ertz,False,30
+2019,0,0,17,Gonna Get a TD,Dalvin Cook,False,52
+2019,0,0,18,angry cat,Damien Williams,False,29
+2019,0,0,19,Whiskey DITKA,Christian Kirk,False,11
+2019,0,0,20,Baker Aker FTW,Stefon Diggs,False,33
+2019,0,0,21,Al's Team,Tyler Lockett,False,23
+2019,0,0,22,Al's Team,Derrick Henry,False,21
+2019,0,0,23,Al's Team,Robbie Chosen,False,5
+2019,0,0,24,Baker Aker FTW,Aaron Jones Sr.,False,35
+2019,0,0,25,Good Times,Chris Godwin Jr.,False,23
+2019,0,0,26,angry cat,Carson Wentz,False,9
+2019,0,0,27,PokerA9,Russell Wilson,False,7
+2019,0,0,28,Al's Team,Sony Michel,False,21
+2019,0,0,29,PokerA9,Amari Cooper,False,31
+2019,0,0,30,Baker Aker FTW,Baker Mayfield,False,15
+2019,0,0,31,angry cat,Ravens,False,3
+2019,0,0,32,Eric's Team,Devonta Freeman,False,33
+2019,0,0,33,Good Times,Josh Gordon,False,13
+2019,0,0,34,Going Streaking,Jarvis Landry,False,11
+2019,0,0,35,Good Times,Miles Sanders,False,23
+2019,0,0,36,Al's Team,Lamar Jackson,False,4
+2019,0,0,37,angry cat,Tyler Boyd,False,10
+2019,0,0,38,Al's Team,Tevin Coleman,False,10
+2019,0,0,39,Whiskey DITKA,Greg Zuerlein,False,2
+2019,0,0,40,Baker Aker FTW,Tarik Cohen,False,8
+2019,0,0,41,Going Streaking,Calvin Ridley,False,4
+2019,0,0,42,Gonna Get a TD,Derrius Guice,False,16
+2019,0,0,43,Al's Team,Dante Pettis,False,5
+2019,0,0,44,Good Times,Kyler Murray,False,3
+2019,0,0,45,angry cat,Alshon Jeffery,False,8
+2019,0,0,46,Baker Aker FTW,Corey Davis,False,2
+2019,0,0,47,Gonna Get a TD,Vance McDonald,False,7
+2019,0,0,48,Good Times,Josh Jacobs,False,28
+2019,0,0,49,Baker Aker FTW,O.J. Howard,False,2
+2019,0,0,50,OBJYN,Evan Engram,False,6
+2019,0,0,51,Eric's Team,Jared Cook,False,2
+2019,0,0,52,Gonna Get a TD,A.J. Green,False,7
+2019,0,0,53,Al's Team,Devin Singletary,False,7
+2019,0,0,54,Going Streaking,Rams,False,3
+2019,0,0,55,angry cat,Kenyan Drake,False,15
+2019,0,0,56,angry cat,Dak Prescott,False,2
+2019,0,0,57,PokerA9,Larry Fitzgerald,False,2
+2019,0,0,58,OBJYN,Duke Johnson,False,18
+2019,0,0,59,angry cat,James White,False,6
+2019,0,0,60,Baker Aker FTW,Mike Williams,False,18
+2019,0,0,61,Al's Team,Mark Andrews,False,5
+2019,0,0,62,Baker Aker FTW,Patriots,False,1
+2019,0,0,63,Whiskey DITKA,Anthony Miller,False,4
+2019,0,0,64,Eric's Team,Harrison Butker,False,1
+2019,0,0,65,angry cat,Justin Tucker,False,3
+2019,0,0,66,Going Streaking,Mitchell Trubisky,False,13
+2019,0,0,67,OBJYN,Donte Moncrief,False,2
+2019,0,0,68,OBJYN,Dede Westbrook,False,3
+2019,0,0,69,Whiskey DITKA,Royce Freeman,False,2
+2019,0,0,70,Gonna Get a TD,Michael Gallup,False,1
+2019,0,0,71,OBJYN,Vikings,False,2
+2019,0,0,72,Baker Aker FTW,Matt Breida,False,6
+2019,0,0,73,Al's Team,Marvin Jones Jr.,False,2
+2019,0,0,74,PokerA9,Chargers,False,2
+2019,0,0,75,angry cat,Sterling Shepard,False,3
+2019,0,0,76,OBJYN,Jameis Winston,False,1
+2019,0,0,77,Going Streaking,Kirk Cousins,False,1
+2019,0,0,78,Good Times,Jaguars,False,1
+2019,0,0,79,OBJYN,Jordan Howard,False,3
+2019,0,0,80,Gonna Get a TD,James Washington,False,1
+2019,0,0,81,PokerA9,Austin Hooper,False,1
+2019,0,0,82,OBJYN,Wil Lutz,False,2
+2019,0,0,83,PokerA9,Browns,False,2
+2019,0,0,84,Eric's Team,Texans,False,1
+2019,0,0,85,OBJYN,Latavius Murray,False,1
+2019,0,0,86,PokerA9,Sammy Watkins,False,2
+2019,0,0,87,Good Times,Austin Ekeler,False,11
+2019,0,0,88,Whiskey DITKA,Emmanuel Sanders,False,1
+2019,0,0,89,Gonna Get a TD,Chris Herndon,False,1
+2019,0,0,90,PokerA9,Brandon McManus,False,1
+2019,0,0,91,Baker Aker FTW,Ka'imi Fairbairn,False,1
+2019,0,0,92,Al's Team,Seahawks,False,1
+2019,0,0,93,Eric's Team,Saints,False,1
+2019,0,0,94,OBJYN,Curtis Samuel,False,3
+2019,0,0,95,PokerA9,Justice Hill,False,2
+2019,0,0,96,Good Times,Darren Waller,False,1
+2019,0,0,97,Gonna Get a TD,Rashaad Penny,False,1
+2019,0,0,98,Baker Aker FTW,Darrell Henderson Jr.,False,1
+2019,0,0,99,Al's Team,Robbie Gould,False,1
+2019,0,0,100,Eric's Team,John Brown,False,1
+2019,0,0,101,Going Streaking,Stephen Gostkowski,False,1
+2019,0,0,102,Good Times,Jake Elliott,False,1
+2019,0,0,103,Gonna Get a TD,Justin Jackson,False,1
+2019,0,0,104,Al's Team,Kareem Hunt,False,3
+2019,0,0,105,Eric's Team,Trey Burton,False,1
+2019,0,0,106,Going Streaking,LeSean McCoy,False,1
+2019,0,0,107,Gonna Get a TD,Dare Ogunbowale,False,1
+2019,0,0,108,Eric's Team,Jaylen Samuels,False,1
+2019,0,0,109,Going Streaking,Tom Brady,False,1
+2019,0,0,110,Eric's Team,Marquez Valdes-Scantling,False,1
+2019,0,0,111,Going Streaking,Carlos Hyde,False,1
+2019,0,0,112,Eric's Team,Alexander Mattison,False,1
+2019,0,0,113,Going Streaking,Nyheim Miller-Hines,False,1
+2019,0,0,114,OBJYN,David Njoku,True,2
+2019,0,0,115,OBJYN,DJ Moore,True,1
+2019,0,0,116,OBJYN,Odell Beckham Jr.,True,57
+2019,0,0,117,OBJYN,Michael Thomas,True,44
+2019,0,0,118,OBJYN,Christian McCaffrey,True,28
+2019,0,0,119,PokerA9,Jared Goff,True,2
+2019,0,0,120,PokerA9,Kyle Rudolph,True,8
+2019,0,0,121,PokerA9,Todd Gurley,True,65
+2019,0,0,122,angry cat,Hunter Henry,True,1
+2019,0,0,123,angry cat,Chris Carson,True,1
+2019,0,0,124,angry cat,Joe Mixon,True,19
+2019,0,0,125,angry cat,JuJu Smith-Schuster,True,10
+2019,0,0,126,angry cat,Tyreek Hill,True,25
+2019,0,0,127,Baker Aker FTW,Mark Ingram II,True,9
+2019,0,0,128,Baker Aker FTW,Brandin Cooks,True,6
+2019,0,0,129,Baker Aker FTW,Cam Newton,True,6
+2019,0,0,130,Whiskey DITKA,Bears,True,1
+2019,0,0,131,Whiskey DITKA,Will Fuller V,True,2
+2019,0,0,132,Whiskey DITKA,Allen Robinson,True,9
+2019,0,0,133,Whiskey DITKA,Marlon Mack,True,2
+2019,0,0,134,Whiskey DITKA,Ben Roethlisberger,True,1
+2019,0,0,135,Good Times,Cooper Kupp,True,1
+2019,0,0,136,Good Times,Kenny Golladay,True,1
+2019,0,0,137,Good Times,Keenan Allen,True,27
+2019,0,0,138,Good Times,George Kittle,True,1
+2019,0,0,139,Good Times,Matt Ryan,True,1
+2019,0,0,140,Going Streaking,Robert Woods,True,1
+2019,0,0,141,Going Streaking,Travis Kelce,True,19
+2019,0,0,142,Going Streaking,Adam Thielen,True,15
+2019,0,0,143,Eric's Team,Julian Edelman,True,2
+2019,0,0,144,Eric's Team,Saquon Barkley,True,68
+2019,0,0,145,Eric's Team,Drew Brees,True,11
+2019,0,0,146,Gonna Get a TD,Kerryon Johnson,True,9
+2019,0,0,147,Gonna Get a TD,Nick Chubb,True,8
+2019,0,0,148,Gonna Get a TD,Mike Evans,True,25
+2019,0,0,149,Gonna Get a TD,DeAndre Hopkins,True,61
+2019,0,0,150,Gonna Get a TD,Patrick Mahomes,True,7
+2020,0,0,1,Going Streaking,Alvin Kamara,False,52
+2020,0,0,2,PokerA9,Dalvin Cook,False,51
+2020,0,0,3,Good Times,Saquon Barkley,False,66
+2020,0,0,4,angry cat,Kyler Murray,False,15
+2020,0,0,5,Big Al,Julio Jones,False,41
+2020,0,0,6,Whiskey DITKA,Zach Ertz,False,23
+2020,0,0,7,Gonna Get a TD,Clyde Edwards-Helaire,False,53
+2020,0,0,8,angry cat,Dak Prescott,False,10
+2020,0,0,9,Whiskey DITKA,Aaron Jones Sr.,False,41
+2020,0,0,10,angry cat,Miles Sanders,False,37
+2020,0,0,11,Whiskey DITKA,Chris Godwin Jr.,False,40
+2020,0,0,12,angry cat,James Conner,False,31
+2020,0,0,13,angry cat,Tyler Higbee,False,11
+2020,0,0,14,Going Streaking,Tom Brady,False,3
+2020,0,0,15,Gonna Get a TD,DeAndre Hopkins,False,50
+2020,0,0,16,Big Al,Le'Veon Bell,False,32
+2020,0,0,17,Whiskey DITKA,Cam Akers,False,23
+2020,0,0,18,Going Streaking,Mike Evans,False,28
+2020,0,0,19,Eric's Team,D'Andre Swift,False,13
+2020,0,0,20,Eric's Team,Jonathan Taylor,False,30
+2020,0,0,21,PokerA9,Jared Cook,False,10
+2020,0,0,22,PokerA9,Todd Gurley,False,25
+2020,0,0,23,Good Times,49ers,False,4
+2020,0,0,24,11 Bar Blues,David Johnson,False,20
+2020,0,0,25,Drafted 3 Defense...,Melvin Gordon III,False,17
+2020,0,0,26,11 Bar Blues,Robert Woods,False,35
+2020,0,0,27,Whiskey DITKA,David Montgomery,False,15
+2020,0,0,28,Eric's Team,Davante Adams,False,51
+2020,0,0,29,Drafted 3 Defense...,DK Metcalf,False,20
+2020,0,0,30,Big Al,Terry McLaurin,False,17
+2020,0,0,31,PokerA9,Matt Ryan,False,6
+2020,0,0,32,Gonna Get a TD,Odell Beckham Jr.,False,41
+2020,0,0,33,PokerA9,Ravens,False,3
+2020,0,0,34,Big Al,DJ Chark,False,25
+2020,0,0,35,Big Al,Stefon Diggs,False,14
+2020,0,0,36,Drafted 3 Defense...,T.Y. Hilton,False,17
+2020,0,0,37,Good Times,Tyler Lockett,False,22
+2020,0,0,38,Drafted 3 Defense...,James White,False,2
+2020,0,0,39,Drafted 3 Defense...,Darren Waller,False,9
+2020,0,0,40,Eric's Team,Courtland Sutton,False,18
+2020,0,0,41,11 Bar Blues,Hollywood Brown,False,14
+2020,0,0,42,Good Times,Keenan Allen,False,18
+2020,0,0,43,Drafted 3 Defense...,Steelers,False,2
+2020,0,0,44,PokerA9,Ronald Jones,False,8
+2020,0,0,45,Good Times,Josh Allen,False,2
+2020,0,0,46,Drafted 3 Defense...,Greg Zuerlein,False,2
+2020,0,0,47,Whiskey DITKA,Adrian Peterson,False,1
+2020,0,0,48,angry cat,Hayden Hurst,False,4
+2020,0,0,49,Drafted 3 Defense...,Raheem Mostert,False,32
+2020,0,0,50,Drafted 3 Defense...,Tyler Boyd,False,12
+2020,0,0,51,Eric's Team,Austin Hooper,False,3
+2020,0,0,52,PokerA9,Jordan Howard,False,5
+2020,0,0,53,Whiskey DITKA,Bears,False,3
+2020,0,0,54,Drafted 3 Defense...,Baker Mayfield,False,3
+2020,0,0,55,Going Streaking,Daniel Jones,False,2
+2020,0,0,56,angry cat,Robbie Gould,False,2
+2020,0,0,57,Whiskey DITKA,Will Fuller V,False,11
+2020,0,0,58,PokerA9,Mike Gesicki,False,4
+2020,0,0,59,Eric's Team,A.J. Green,False,12
+2020,0,0,60,11 Bar Blues,Diontae Johnson,False,7
+2020,0,0,61,PokerA9,Jarvis Landry,False,7
+2020,0,0,62,Good Times,J.K. Dobbins,False,12
+2020,0,0,63,Going Streaking,Bills,False,2
+2020,0,0,64,Gonna Get a TD,Noah Fant,False,3
+2020,0,0,65,Big Al,Justin Tucker,False,1
+2020,0,0,66,Gonna Get a TD,Matt Breida,False,2
+2020,0,0,67,Gonna Get a TD,Sony Michel,False,1
+2020,0,0,68,PokerA9,Anthony Miller,False,6
+2020,0,0,69,Good Times,Wil Lutz,False,1
+2020,0,0,70,PokerA9,Jake Elliott,False,1
+2020,0,0,71,Eric's Team,CeeDee Lamb,False,7
+2020,0,0,72,angry cat,Vikings,False,1
+2020,0,0,73,11 Bar Blues,Zack Moss,False,11
+2020,0,0,74,Big Al,Rams,False,1
+2020,0,0,75,Good Times,Rob Gronkowski,False,2
+2020,0,0,76,Gonna Get a TD,Antonio Gibson,False,12
+2020,0,0,77,11 Bar Blues,Christian Kirk,False,3
+2020,0,0,78,Eric's Team,Henry Ruggs III,False,2
+2020,0,0,79,Gonna Get a TD,Leonard Fournette,False,22
+2020,0,0,80,angry cat,DeVante Parker,False,11
+2020,0,0,81,11 Bar Blues,Jonnu Smith,False,1
+2020,0,0,82,Big Al,Jerry Jeudy,False,4
+2020,0,0,83,Whiskey DITKA,Matt Prater,False,1
+2020,0,0,84,Gonna Get a TD,Rashaad Penny,False,1
+2020,0,0,85,Going Streaking,Evan Engram,False,1
+2020,0,0,86,Good Times,Latavius Murray,False,3
+2020,0,0,87,Eric's Team,Darrell Henderson Jr.,False,3
+2020,0,0,88,Eric's Team,Chiefs,False,2
+2020,0,0,89,11 Bar Blues,Zane Gonzalez,False,1
+2020,0,0,90,Big Al,Marvin Jones Jr.,False,1
+2020,0,0,91,Going Streaking,Jamison Crowder,False,2
+2020,0,0,92,Gonna Get a TD,Damien Harris,False,1
+2020,0,0,93,Good Times,Carson Wentz,False,2
+2020,0,0,94,angry cat,Broncos,False,1
+2020,0,0,95,11 Bar Blues,Colts,False,1
+2020,0,0,96,11 Bar Blues,Joe Burrow,False,2
+2020,0,0,97,Whiskey DITKA,Matthew Stafford,False,1
+2020,0,0,98,11 Bar Blues,Darius Slayton,False,2
+2020,0,0,99,Going Streaking,Tarik Cohen,False,2
+2020,0,0,100,Going Streaking,Hunter Renfrow,False,1
+2020,0,0,101,Big Al,Jalen Reagor,False,1
+2020,0,0,102,Going Streaking,Boston Scott,False,1
+2020,0,0,103,Going Streaking,Dan Bailey,False,1
+2020,0,0,104,11 Bar Blues,DJ Moore,True,2
+2020,0,0,105,11 Bar Blues,Kenyan Drake,True,17
+2020,0,0,106,11 Bar Blues,Christian McCaffrey,True,31
+2020,0,0,107,11 Bar Blues,Michael Thomas,True,49
+2020,0,0,108,PokerA9,Russell Wilson,True,8
+2020,0,0,109,PokerA9,Phillip Lindsay,True,20
+2020,0,0,110,PokerA9,Larry Fitzgerald,True,3
+2020,0,0,111,PokerA9,Amari Cooper,True,35
+2020,0,0,112,Drafted 3 Defense...,Patriots,True,2
+2020,0,0,113,Drafted 3 Defense...,Saints,True,2
+2020,0,0,114,Drafted 3 Defense...,Mike Williams,True,20
+2020,0,0,115,Drafted 3 Defense...,Brandin Cooks,True,7
+2020,0,0,116,Drafted 3 Defense...,Mark Ingram II,True,10
+2020,0,0,117,angry cat,Sterling Shepard,True,4
+2020,0,0,118,angry cat,JuJu Smith-Schuster,True,11
+2020,0,0,119,angry cat,Chris Carson,True,2
+2020,0,0,120,angry cat,Joe Mixon,True,21
+2020,0,0,121,angry cat,Tyreek Hill,True,28
+2020,0,0,122,Whiskey DITKA,DeSean Jackson,True,3
+2020,0,0,123,Whiskey DITKA,Deebo Samuel,True,5
+2020,0,0,124,Whiskey DITKA,Emmanuel Sanders,True,2
+2020,0,0,125,Whiskey DITKA,Allen Robinson,True,10
+2020,0,0,126,Whiskey DITKA,Deshaun Watson,True,21
+2020,0,0,127,Good Times,Josh Jacobs,True,31
+2020,0,0,128,Good Times,Cooper Kupp,True,2
+2020,0,0,129,Good Times,George Kittle,True,2
+2020,0,0,130,Good Times,Austin Ekeler,True,13
+2020,0,0,131,Good Times,Kenny Golladay,True,2
+2020,0,0,132,Big Al,Devin Singletary,True,8
+2020,0,0,133,Big Al,Derrick Henry,True,24
+2020,0,0,134,Big Al,Mark Andrews,True,6
+2020,0,0,135,Big Al,Kareem Hunt,True,4
+2020,0,0,136,Big Al,Lamar Jackson,True,5
+2020,0,0,137,Going Streaking,Calvin Ridley,True,5
+2020,0,0,138,Going Streaking,Adam Thielen,True,17
+2020,0,0,139,Going Streaking,Travis Kelce,True,21
+2020,0,0,140,Going Streaking,Ezekiel Elliott,True,60
+2020,0,0,141,Eric's Team,Harrison Butker,True,2
+2020,0,0,142,Eric's Team,Drew Brees,True,13
+2020,0,0,143,Eric's Team,John Brown,True,2
+2020,0,0,144,Eric's Team,Julian Edelman,True,3
+2020,0,0,145,Eric's Team,Aaron Rodgers,True,22
+2020,0,0,146,Gonna Get a TD,A.J. Brown,True,8
+2020,0,0,147,Gonna Get a TD,Michael Gallup,True,2
+2020,0,0,148,Gonna Get a TD,Hunter Henry,True,2
+2020,0,0,149,Gonna Get a TD,Nick Chubb,True,9
+2020,0,0,150,Gonna Get a TD,Patrick Mahomes,True,8
+2021,0,0,1,Good Times,Jerry Jeudy,False,7
+2021,0,0,2,Going Streaking,Ezekiel Elliott,False,60
+2021,0,0,3,Whiskey DITKA,Tee Higgins,False,14
+2021,0,0,4,Eric's Team,Buccaneers,False,1
+2021,0,0,5,11 Bar Blues,D'Andre Swift,False,19
+2021,0,0,6,PokerA9,Josh Jacobs,False,20
+2021,0,0,7,11 Bar Blues,Clyde Edwards-Helaire,False,49
+2021,0,0,8,PNW,Darrell Henderson Jr.,False,17
+2021,0,0,9,The Bald Beauty,Kareem Hunt,False,13
+2021,0,0,10,11 Bar Blues,Myles Gaskin,False,15
+2021,0,0,11,PokerA9,Miles Sanders,False,11
+2021,0,0,12,Gonna Get a TD,Kyle Pitts Sr.,False,20
+2021,0,0,13,Big Al,Joe Mixon,False,27
+2021,0,0,14,Going Streaking,Mike Davis,False,12
+2021,0,0,15,Eric's Team,Chris Godwin Jr.,False,12
+2021,0,0,16,Gonna Get a TD,Commanders,False,2
+2021,0,0,17,PokerA9,Justin Tucker,False,2
+2021,0,0,18,Big Al,Julio Jones,False,19
+2021,0,0,19,PNW,Trey Sermon,False,13
+2021,0,0,20,Good Times,Davante Adams,False,58
+2021,0,0,21,PokerA9,Tyler Lockett,False,17
+2021,0,0,22,Whiskey DITKA,Ravens,False,18
+2021,0,0,23,PokerA9,Dak Prescott,False,7
+2021,0,0,24,PokerA9,Russell Wilson,False,9
+2021,0,0,25,Gonna Get a TD,DeAndre Hopkins,False,55
+2021,0,0,26,11 Bar Blues,Rams,False,2
+2021,0,0,27,Good Times,Najee Harris,False,47
+2021,0,0,28,PNW,Odell Beckham Jr.,False,10
+2021,0,0,29,Whiskey DITKA,Adam Thielen,False,20
+2021,0,0,30,The Bald Beauty,Raheem Mostert,False,20
+2021,0,0,31,PNW,Deebo Samuel,False,1
+2021,0,0,32,PokerA9,Phillip Lindsay,False,1
+2021,0,0,33,Whiskey DITKA,Aaron Rodgers,False,18
+2021,0,0,34,Big Al,Amari Cooper,False,25
+2021,0,0,35,PNW,Chase Edmonds,False,17
+2021,0,0,36,11 Bar Blues,Harrison Butker,False,2
+2021,0,0,37,PNW,Devin Singletary,False,2
+2021,0,0,38,PokerA9,T.J. Hockenson,False,19
+2021,0,0,39,PNW,Logan Thomas,False,20
+2021,0,0,40,Big Al,Corey Davis,False,5
+2021,0,0,41,11 Bar Blues,Tyler Higbee,False,11
+2021,0,0,42,PokerA9,Bills,False,2
+2021,0,0,43,Whiskey DITKA,Gus Edwards,False,30
+2021,0,0,44,Eric's Team,Robert Tonyan,False,10
+2021,0,0,45,Big Al,James Conner,False,4
+2021,0,0,46,11 Bar Blues,DeVonta Smith,False,5
+2021,0,0,47,Big Al,Ronald Jones,False,13
+2021,0,0,48,Eric's Team,Justin Herbert,False,19
+2021,0,0,49,The Bald Beauty,Javonte Williams,False,25
+2021,0,0,50,Big Al,Tony Pollard,False,3
+2021,0,0,51,PNW,Matthew Stafford,False,7
+2021,0,0,52,Whiskey DITKA,Kenny Golladay,False,2
+2021,0,0,53,The Bald Beauty,Mike Gesicki,False,6
+2021,0,0,54,11 Bar Blues,AJ Dillon,False,2
+2021,0,0,55,PNW,49ers,False,7
+2021,0,0,56,The Bald Beauty,Terrace Marshall Jr.,False,5
+2021,0,0,57,Eric's Team,Leonard Fournette,False,6
+2021,0,0,58,Whiskey DITKA,Dallas Goedert,False,4
+2021,0,0,59,The Bald Beauty,Nyheim Miller-Hines,False,1
+2021,0,0,60,Big Al,Robbie Gould,False,2
+2021,0,0,61,PNW,Greg Zuerlein,False,2
+2021,0,0,62,PokerA9,Robbie Chosen,False,10
+2021,0,0,63,PNW,Chase Claypool,False,14
+2021,0,0,64,Eric's Team,Zack Moss,False,7
+2021,0,0,65,The Bald Beauty,Steelers,False,3
+2021,0,0,66,Whiskey DITKA,Jaylen Waddle,False,5
+2021,0,0,67,Whiskey DITKA,Jamaal Williams,False,2
+2021,0,0,68,The Bald Beauty,Ja'Marr Chase,False,20
+2021,0,0,69,The Bald Beauty,Mike Williams,False,7
+2021,0,0,70,Big Al,Browns,False,2
+2021,0,0,71,Good Times,Melvin Gordon III,False,12
+2021,0,0,72,The Bald Beauty,Curtis Samuel,False,2
+2021,0,0,73,The Bald Beauty,Younghoe Koo,False,2
+2021,0,0,74,Eric's Team,Jason Sanders,False,2
+2021,0,0,75,Gonna Get a TD,Elijah Moore,False,3
+2021,0,0,76,Big Al,Trey Lance,False,2
+2021,0,0,77,Gonna Get a TD,Antonio Brown,False,1
+2021,0,0,78,PNW,Tom Brady,False,1
+2021,0,0,79,Gonna Get a TD,Michael Thomas,False,8
+2021,0,0,80,Eric's Team,Laviska Shenault Jr.,False,21
+2021,0,0,81,Good Times,Noah Fant,False,1
+2021,0,0,82,Eric's Team,Justin Fields,False,7
+2021,0,0,83,Good Times,Courtland Sutton,False,2
+2021,0,0,84,Good Times,Michael Carter,False,14
+2021,0,0,85,Whiskey DITKA,Cairo Santos,False,1
+2021,0,0,86,Eric's Team,Trevor Lawrence,False,4
+2021,0,0,87,Gonna Get a TD,Marquez Callaway,False,6
+2021,0,0,88,11 Bar Blues,Chuba Hubbard,False,1
+2021,0,0,89,Going Streaking,Brandin Cooks,False,1
+2021,0,0,90,Gonna Get a TD,Tevin Coleman,False,1
+2021,0,0,91,Whiskey DITKA,Ryan Tannehill,False,1
+2021,0,0,92,Good Times,Rodrigo Blankenship,False,1
+2021,0,0,93,11 Bar Blues,Zach Wilson,False,1
+2021,0,0,94,Going Streaking,Tyler Bass,False,1
+2021,0,0,95,Gonna Get a TD,Rashod Bateman,False,1
+2021,0,0,96,Good Times,Broncos,False,1
+2021,0,0,97,Going Streaking,Patriots,False,1
+2021,0,0,98,Good Times,Darnell Mooney,False,2
+2021,0,0,99,Going Streaking,Joe Burrow,False,1
+2021,0,0,100,Gonna Get a TD,Will Fuller V,False,1
+2021,0,0,101,Going Streaking,Sony Michel,False,1
+2021,0,0,102,Going Streaking,Michael Pittman Jr.,False,1
+2021,0,0,103,Going Streaking,Jameis Winston,False,1
+2021,0,0,104,Going Streaking,J.K. Dobbins,False,1
+2021,0,0,105,Going Streaking,Mecole Hardman Jr.,False,1
+2021,0,0,106,Going Streaking,Calvin Ridley,True,6
+2021,0,0,107,Going Streaking,Travis Kelce,True,24
+2021,0,0,108,Going Streaking,Alvin Kamara,True,58
+2021,0,0,109,Going Streaking,Mike Evans,True,31
+2021,0,0,110,The Bald Beauty,JuJu Smith-Schuster,True,13
+2021,0,0,111,The Bald Beauty,Tyreek Hill,True,31
+2021,0,0,112,The Bald Beauty,Kyler Murray,True,17
+2021,0,0,113,The Bald Beauty,Chris Carson,True,3
+2021,0,0,114,Eric's Team,Saquon Barkley,True,6
+2021,0,0,115,Eric's Team,CeeDee Lamb,True,8
+2021,0,0,116,Eric's Team,Jonathan Taylor,True,33
+2021,0,0,117,Eric's Team,James Robinson,True,8
+2021,0,0,118,Eric's Team,Justin Jefferson,True,22
+2021,0,0,119,PNW,Tyler Boyd,True,14
+2021,0,0,120,PNW,Darren Waller,True,10
+2021,0,0,121,PNW,DK Metcalf,True,22
+2021,0,0,122,PokerA9,Hollywood Brown,True,16
+2021,0,0,123,PokerA9,Jared Cook,True,11
+2021,0,0,124,PokerA9,Dalvin Cook,True,57
+2021,0,0,125,PokerA9,Brandon Aiyuk,True,6
+2021,0,0,126,PokerA9,Matt Ryan,True,7
+2021,0,0,127,11 Bar Blues,Christian McCaffrey,True,35
+2021,0,0,128,11 Bar Blues,DJ Moore,True,3
+2021,0,0,129,11 Bar Blues,Diontae Johnson,True,8
+2021,0,0,130,11 Bar Blues,Robert Woods,True,39
+2021,0,0,131,11 Bar Blues,Jalen Hurts,True,3
+2021,0,0,132,Whiskey DITKA,Wayne Gallman,True,5
+2021,0,0,133,Whiskey DITKA,David Montgomery,True,17
+2021,0,0,134,Whiskey DITKA,Aaron Jones Sr.,True,46
+2021,0,0,135,Whiskey DITKA,Allen Robinson,True,11
+2021,0,0,136,Good Times,George Kittle,True,3
+2021,0,0,137,Good Times,Austin Ekeler,True,15
+2021,0,0,138,Good Times,Cooper Kupp,True,3
+2021,0,0,139,Good Times,Keenan Allen,True,20
+2021,0,0,140,Good Times,Josh Allen,True,3
+2021,0,0,141,Big Al,Mark Andrews,True,7
+2021,0,0,142,Big Al,Lamar Jackson,True,6
+2021,0,0,143,Big Al,Terry McLaurin,True,19
+2021,0,0,144,Big Al,Stefon Diggs,True,16
+2021,0,0,145,Big Al,Derrick Henry,True,27
+2021,0,0,146,Gonna Get a TD,Antonio Gibson,True,14
+2021,0,0,147,Gonna Get a TD,Damien Harris,True,2
+2021,0,0,148,Gonna Get a TD,Nick Chubb,True,10
+2021,0,0,149,Gonna Get a TD,A.J. Brown,True,9
+2021,0,0,150,Gonna Get a TD,Patrick Mahomes,True,9
+2022,0,0,1,Carmala,Dalton Schultz,False,15
+2022,0,0,2,Big Al,Dalvin Cook,False,61
+2022,0,0,3,Good Times,Davante Adams,False,51
+2022,0,0,4,Fuck It Kupp It,Najee Harris,False,61
+2022,0,0,5,11 Bar Blues,Ezekiel Elliott,False,29
+2022,0,0,6,Fuck It Kupp It,Aaron Jones Sr.,False,35
+2022,0,0,7,Eric's Team,Justin Herbert,False,14
+2022,0,0,8,The Bald Beauty,Clyde Edwards-Helaire,False,9
+2022,0,0,9,Good Times,Alvin Kamara,False,52
+2022,0,0,10,PNW🏔,Bills,False,5
+2022,0,0,11,PNW🏔,Dallas Goedert,False,6
+2022,0,0,12,Carmala,Michael Thomas,False,12
+2022,0,0,13,Mini DITKA,DK Metcalf,False,15
+2022,0,0,14,PNW🏔,JuJu Smith-Schuster,False,16
+2022,0,0,15,11 Bar Blues,Mike Evans,False,35
+2022,0,0,16,Eric's Team,Justin Fields,False,5
+2022,0,0,17,The Bald Beauty,Justin Tucker,False,2
+2022,0,0,18,PNW🏔,Cam Akers,False,28
+2022,0,0,19,Gonna Get a TD,Tyreek Hill,False,40
+2022,0,0,20,Mini DITKA,T.J. Hockenson,False,6
+2022,0,0,21,The Bald Beauty,Darnell Mooney,False,12
+2022,0,0,22,PNW🏔,Amon-Ra St. Brown,False,21
+2022,0,0,23,Mini DITKA,Gabe Davis,False,16
+2022,0,0,24,The Bald Beauty,Pat Freiermuth,False,7
+2022,0,0,25,Mini DITKA,49ers,False,8
+2022,0,0,26,Mini DITKA,James Cook III,False,16
+2022,0,0,27,Gonna Get a TD,James Conner,False,41
+2022,0,0,28,Mini DITKA,Breece Hall,False,28
+2022,0,0,29,PNW🏔,Adam Thielen,False,17
+2022,0,0,30,Carmala,David Montgomery,False,23
+2022,0,0,31,The Bald Beauty,Kareem Hunt,False,13
+2022,0,0,32,Fuck It Kupp It,Allen Robinson,False,22
+2022,0,0,33,PNW🏔,Evan McPherson,False,3
+2022,0,0,34,The Bald Beauty,Jerry Jeudy,False,15
+2022,0,0,35,11 Bar Blues,Zach Ertz,False,11
+2022,0,0,36,Eric's Team,Dameon Pierce,False,24
+2022,0,0,37,Fuck It Kupp It,DeAndre Hopkins,False,15
+2022,0,0,38,Big Al,Terry McLaurin,False,20
+2022,0,0,39,Mini DITKA,Aaron Rodgers,False,9
+2022,0,0,40,Mini DITKA,Antonio Gibson,False,15
+2022,0,0,41,Mini DITKA,Damien Harris,False,9
+2022,0,0,42,Mini DITKA,Elijah Moore,False,11
+2022,0,0,43,Eric's Team,Keenan Allen,False,34
+2022,0,0,44,The Bald Beauty,Buccaneers,False,7
+2022,0,0,45,Carmala,Saints,False,5
+2022,0,0,46,11 Bar Blues,Drake London,False,10
+2022,0,0,47,Gonna Get a TD,Brian Robinson,False,3
+2022,0,0,48,Mini DITKA,Chase Edmonds,False,38
+2022,0,0,49,Mini DITKA,Trevor Lawrence,False,5
+2022,0,0,50,The Bald Beauty,Dawson Knox,False,13
+2022,0,0,51,Good Times,Cole Kmet,False,15
+2022,0,0,52,PNW🏔,Isiah Pacheco,False,3
+2022,0,0,53,11 Bar Blues,AJ Dillon,False,27
+2022,0,0,54,The Bald Beauty,Dak Prescott,False,3
+2022,0,0,55,Carmala,Derek Carr,False,4
+2022,0,0,56,Carmala,Chris Olave,False,5
+2022,0,0,57,Gonna Get a TD,George Pickens,False,6
+2022,0,0,58,Carmala,Chris Godwin Jr.,False,21
+2022,0,0,59,Mini DITKA,Daniel Carlson,False,1
+2022,0,0,60,Eric's Team,Rams,False,4
+2022,0,0,61,Fuck It Kupp It,Harrison Butker,False,1
+2022,0,0,62,Good Times,Allen Lazard,False,6
+2022,0,0,63,Carmala,Melvin Gordon III,False,28
+2022,0,0,64,Good Times,Rhamondre Stevenson,False,21
+2022,0,0,65,Carmala,Austin Hooper,False,1
+2022,0,0,66,Eric's Team,Colts,False,4
+2022,0,0,67,11 Bar Blues,Broncos,False,2
+2022,0,0,68,Gonna Get a TD,Rashaad Penny,False,11
+2022,0,0,69,Eric's Team,Hunter Henry,False,1
+2022,0,0,70,PNW🏔,Miles Sanders,False,23
+2022,0,0,71,Fuck It Kupp It,Julio Jones,False,4
+2022,0,0,72,Carmala,Darrell Henderson Jr.,False,12
+2022,0,0,73,Gonna Get a TD,Hunter Renfrow,False,12
+2022,0,0,74,Carmala,Matt Gay,False,1
+2022,0,0,75,Eric's Team,Tyler Bass,False,3
+2022,0,0,76,Gonna Get a TD,Brandon McManus,False,1
+2022,0,0,77,The Bald Beauty,Amari Cooper,False,3
+2022,0,0,78,Eric's Team,Rashod Bateman,False,9
+2022,0,0,79,Fuck It Kupp It,Michael Carter,False,1
+2022,0,0,80,Big Al,Alexander Mattison,False,3
+2022,0,0,81,PNW🏔,Nyheim Miller-Hines,False,1
+2022,0,0,82,11 Bar Blues,Matt Prater,False,1
+2022,0,0,83,Gonna Get a TD,Jameson Williams,False,1
+2022,0,0,84,Good Times,Younghoe Koo,False,1
+2022,0,0,85,Good Times,Trey Lance,False,5
+2022,0,0,86,11 Bar Blues,Isaiah McKenzie,False,2
+2022,0,0,87,Big Al,Dustin Hopkins,False,1
+2022,0,0,88,PNW🏔,Tua Tagovailoa,False,5
+2022,0,0,89,11 Bar Blues,Jalen Tolbert,False,1
+2022,0,0,90,Eric's Team,Kenneth Walker III,False,10
+2022,0,0,91,Big Al,Chargers,False,2
+2022,0,0,92,Fuck It Kupp It,Treylon Burks,False,3
+2022,0,0,93,Big Al,Christian Kirk,False,4
+2022,0,0,94,Big Al,Khalil Herbert,False,2
+2022,0,0,95,Gonna Get a TD,Rachaad White,False,7
+2022,0,0,96,Good Times,Packers,False,1
+2022,0,0,97,Fuck It Kupp It,Ravens,False,1
+2022,0,0,98,Gonna Get a TD,Kadarius Toney,False,2
+2022,0,0,99,11 Bar Blues,Tyler Allgeier,False,3
+2022,0,0,100,Big Al,Cordarrelle Patterson,False,2
+2022,0,0,101,Fuck It Kupp It,Matthew Stafford,False,1
+2022,0,0,102,Big Al,Kirk Cousins,False,1
+2022,0,0,103,Big Al,DeVonta Smith,False,4
+2022,0,0,104,Good Times,Tony Pollard,False,1
+2022,0,0,105,Good Times,Kenny Gainwell,False,1
+2022,0,0,106,Fuck It Kupp It,J.K. Dobbins,True,2
+2022,0,0,107,Fuck It Kupp It,Brandin Cooks,True,2
+2022,0,0,108,Fuck It Kupp It,Travis Kelce,True,27
+2022,0,0,109,Fuck It Kupp It,Michael Pittman Jr.,True,2
+2022,0,0,110,Fuck It Kupp It,Jalen Hurts,True,4
+2022,0,0,111,The Bald Beauty,Travis Etienne Jr.,True,2
+2022,0,0,112,The Bald Beauty,Mike Williams,True,8
+2022,0,0,113,The Bald Beauty,Javonte Williams,True,28
+2022,0,0,114,The Bald Beauty,Ja'Marr Chase,True,22
+2022,0,0,115,The Bald Beauty,Kyler Murray,True,19
+2022,0,0,116,PNW🏔,Darren Waller,True,11
+2022,0,0,117,PNW🏔,Devin Singletary,True,3
+2022,0,0,118,PNW🏔,Tom Brady,True,2
+2022,0,0,119,PNW🏔,Deebo Samuel,True,2
+2022,0,0,120,Eric's Team,Leonard Fournette,True,7
+2022,0,0,121,Eric's Team,Saquon Barkley,True,7
+2022,0,0,122,Eric's Team,Jonathan Taylor,True,37
+2022,0,0,123,Eric's Team,CeeDee Lamb,True,9
+2022,0,0,124,Eric's Team,Justin Jefferson,True,25
+2022,0,0,125,Carmala,Russell Wilson,True,10
+2022,0,0,126,Carmala,Brandon Aiyuk,True,7
+2022,0,0,127,Carmala,Josh Jacobs,True,22
+2022,0,0,128,Carmala,Hollywood Brown,True,18
+2022,0,0,129,11 Bar Blues,Christian McCaffrey,True,39
+2022,0,0,130,11 Bar Blues,D'Andre Swift,True,21
+2022,0,0,131,11 Bar Blues,DJ Moore,True,4
+2022,0,0,132,11 Bar Blues,Diontae Johnson,True,9
+2022,0,0,133,11 Bar Blues,Joe Burrow,True,2
+2022,0,0,134,Mini DITKA,Jaylen Waddle,True,6
+2022,0,0,135,Mini DITKA,Tee Higgins,True,16
+2022,0,0,136,Good Times,Courtland Sutton,True,3
+2022,0,0,137,Good Times,George Kittle,True,4
+2022,0,0,138,Good Times,Austin Ekeler,True,17
+2022,0,0,139,Good Times,Cooper Kupp,True,4
+2022,0,0,140,Good Times,Josh Allen,True,4
+2022,0,0,141,Big Al,Derrick Henry,True,30
+2022,0,0,142,Big Al,Lamar Jackson,True,7
+2022,0,0,143,Big Al,Mark Andrews,True,8
+2022,0,0,144,Big Al,Joe Mixon,True,30
+2022,0,0,145,Big Al,Stefon Diggs,True,18
+2022,0,0,146,Gonna Get a TD,A.J. Brown,True,10
+2022,0,0,147,Gonna Get a TD,Elijah Mitchell,True,7
+2022,0,0,148,Gonna Get a TD,Kyle Pitts Sr.,True,22
+2022,0,0,149,Gonna Get a TD,Nick Chubb,True,11
+2022,0,0,150,Gonna Get a TD,Patrick Mahomes,True,10
+2023,0,0,1,The Bald Beauty,Justin Fields,False,15
+2023,0,0,2,Mini DITKA,Joe Mixon,False,31
+2023,0,0,3,Big Al,Davante Adams,False,34
+2023,0,0,4,PNW🌲,Trevor Lawrence,False,9
+2023,0,0,5,Eric's Team,Breece Hall,False,18
+2023,0,0,6,The Big Dog,Chris Olave,False,37
+2023,0,0,7,PNW🌲,Alvin Kamara,False,10
+2023,0,0,8,The Big Dog,Dameon Pierce,False,30
+2023,0,0,9,Carmala,Tyler Lockett,False,16
+2023,0,0,10,Good Times,Bijan Robinson,False,65
+2023,0,0,11,11 Bar Blues,Keenan Allen,False,13
+2023,0,0,12,Eric's Team,J.K. Dobbins,False,25
+2023,0,0,13,11 Bar Blues,Jahmyr Gibbs,False,42
+2023,0,0,14,The Bald Beauty,Tua Tagovailoa,False,4
+2023,0,0,15,Mini DITKA,Jonathan Taylor,False,20
+2023,0,0,16,Eric's Team,Javonte Williams,False,7
+2023,0,0,17,PNW🌲,Aaron Rodgers,False,4
+2023,0,0,18,Mini DITKA,Alexander Mattison,False,26
+2023,0,0,19,Carmala,Miles Sanders,False,23
+2023,0,0,20,Good Times,Tyreek Hill,False,64
+2023,0,0,21,Eric's Team,DJ Moore,False,15
+2023,0,0,22,PNW🌲,Dalvin Cook,False,11
+2023,0,0,23,The Big Dog,Christian Watson,False,12
+2023,0,0,24,Gonna Get a TD,Geno Smith,False,3
+2023,0,0,25,The Bald Beauty,Mike Williams,False,9
+2023,0,0,26,Mini DITKA,Gabe Davis,False,2
+2023,0,0,27,11 Bar Blues,Jordan Addison,False,10
+2023,0,0,28,Big Al,Khalil Herbert,False,14
+2023,0,0,29,11 Bar Blues,49ers,False,4
+2023,0,0,30,Mini DITKA,Aaron Jones Sr.,False,26
+2023,0,0,31,Carmala,Daniel Jones,False,2
+2023,0,0,32,Mini DITKA,Dak Prescott,False,3
+2023,0,0,33,The Big Dog,Antonio Gibson,False,5
+2023,0,0,34,Gonna Get a TD,Calvin Ridley,False,39
+2023,0,0,35,Gonna Get a TD,Chig Okonkwo,False,7
+2023,0,0,36,The Bald Beauty,Eagles,False,4
+2023,0,0,37,Eric's Team,Rhamondre Stevenson,False,31
+2023,0,0,38,Big Al,Raheem Mostert,False,5
+2023,0,0,39,Carmala,Deshaun Watson,False,5
+2023,0,0,40,11 Bar Blues,Terry McLaurin,False,8
+2023,0,0,41,Big Al,Amari Cooper,False,12
+2023,0,0,42,The Bald Beauty,Evan Engram,False,12
+2023,0,0,43,Carmala,T.J. Hockenson,False,50
+2023,0,0,44,Gonna Get a TD,Najee Harris,False,47
+2023,0,0,45,Big Al,Mike Evans,False,12
+2023,0,0,46,Big Al,Justin Tucker,False,4
+2023,0,0,47,11 Bar Blues,Rachaad White,False,14
+2023,0,0,48,Big Al,Rashaad Penny,False,5
+2023,0,0,49,11 Bar Blues,DeAndre Hopkins,False,14
+2023,0,0,50,Eric's Team,Jerry Jeudy,False,11
+2023,0,0,51,PNW🌲,Patriots,False,1
+2023,0,0,52,The Big Dog,Pat Freiermuth,False,8
+2023,0,0,53,The Big Dog,Kenneth Walker III,False,55
+2023,0,0,54,11 Bar Blues,Anthony Richardson Sr.,False,10
+2023,0,0,55,PNW🌲,Diontae Johnson,False,10
+2023,0,0,56,PNW🌲,Evan McPherson,False,2
+2023,0,0,57,11 Bar Blues,Harrison Butker,False,3
+2023,0,0,58,Big Al,Ezekiel Elliott,False,10
+2023,0,0,59,Carmala,Bills,False,3
+2023,0,0,60,Gonna Get a TD,Michael Thomas,False,8
+2023,0,0,61,PNW🌲,Ravens,False,3
+2023,0,0,62,Mini DITKA,David Njoku,False,10
+2023,0,0,63,The Bald Beauty,James Conner,False,24
+2023,0,0,64,Gonna Get a TD,Jaylen Warren,False,7
+2023,0,0,65,Eric's Team,Cowboys,False,3
+2023,0,0,66,The Big Dog,Tyler Bass,False,2
+2023,0,0,67,11 Bar Blues,De'Von Achane,False,6
+2023,0,0,68,Big Al,Kyler Murray,False,3
+2023,0,0,69,Carmala,Hollywood Brown,False,1
+2023,0,0,70,The Bald Beauty,Dalton Kincaid,False,5
+2023,0,0,71,PNW🌲,Brian Robinson,False,1
+2023,0,0,72,Mini DITKA,Riley Patterson,False,3
+2023,0,0,73,The Bald Beauty,Zach Charbonnet,False,4
+2023,0,0,74,Good Times,Skyy Moore,False,8
+2023,0,0,75,The Big Dog,Jets,False,2
+2023,0,0,76,Eric's Team,Younghoe Koo,False,1
+2023,0,0,77,Big Al,Broncos,False,1
+2023,0,0,78,Carmala,Rashod Bateman,False,1
+2023,0,0,79,The Bald Beauty,Jamaal Williams,False,1
+2023,0,0,80,PNW🌲,Odell Beckham Jr.,False,1
+2023,0,0,81,Mini DITKA,JuJu Smith-Schuster,False,1
+2023,0,0,82,The Big Dog,Tyler Allgeier,False,1
+2023,0,0,83,Gonna Get a TD,Tyjae Spears,False,1
+2023,0,0,84,Good Times,Steelers,False,1
+2023,0,0,85,Eric's Team,Quentin Johnston,False,3
+2023,0,0,86,Carmala,D'Andre Swift,False,6
+2023,0,0,87,The Bald Beauty,Zay Flowers,False,9
+2023,0,0,88,Mini DITKA,Kirk Cousins,False,3
+2023,0,0,89,Gonna Get a TD,Kendre Miller,False,4
+2023,0,0,90,Good Times,Jaxon Smith-Njigba,False,9
+2023,0,0,91,Carmala,Daniel Carlson,False,2
+2023,0,0,92,Good Times,Jahan Dotson,False,6
+2023,0,0,93,Mini DITKA,Dolphins,False,1
+2023,0,0,94,Eric's Team,Tank Bigsby,False,2
+2023,0,0,95,Gonna Get a TD,Commanders,False,1
+2023,0,0,96,Good Times,Kenny Gainwell,False,3
+2023,0,0,97,Mini DITKA,D'Onta Foreman,False,1
+2023,0,0,98,The Big Dog,Sean Tucker,False,1
+2023,0,0,99,Gonna Get a TD,Brandon McManus,False,1
+2023,0,0,100,Good Times,Sam LaPorta,False,3
+2023,0,0,101,The Big Dog,Brock Purdy,False,1
+2023,0,0,102,Good Times,Jason Sanders,False,1
+2023,0,0,103,The Big Dog,Michael Mayer,False,1
+2023,0,0,104,Good Times,Roschon Johnson,False,1
+2023,0,0,105,Eric's Team,Jalen Hurts,True,5
+2023,0,0,106,Eric's Team,Travis Kelce,True,30
+2023,0,0,107,Eric's Team,Saquon Barkley,True,8
+2023,0,0,108,Eric's Team,CeeDee Lamb,True,10
+2023,0,0,109,Eric's Team,Justin Jefferson,True,28
+2023,0,0,110,The Big Dog,Michael Pittman Jr.,True,3
+2023,0,0,111,The Big Dog,Justin Herbert,True,16
+2023,0,0,112,The Big Dog,Chris Godwin Jr.,True,24
+2023,0,0,113,PNW🌲,Darren Waller,True,13
+2023,0,0,114,PNW🌲,Dallas Goedert,True,7
+2023,0,0,115,PNW🌲,Isiah Pacheco,True,4
+2023,0,0,116,PNW🌲,Deebo Samuel,True,3
+2023,0,0,117,PNW🌲,Amon-Ra St. Brown,True,24
+2023,0,0,118,Carmala,Derek Carr,True,5
+2023,0,0,119,Carmala,David Montgomery,True,26
+2023,0,0,120,Carmala,Dalton Schultz,True,17
+2023,0,0,121,Carmala,Josh Jacobs,True,25
+2023,0,0,122,Carmala,Brandon Aiyuk,True,8
+2023,0,0,123,Mini DITKA,DK Metcalf,True,17
+2023,0,0,124,Mini DITKA,Jaylen Waddle,True,7
+2023,0,0,125,Mini DITKA,Tee Higgins,True,18
+2023,0,0,126,11 Bar Blues,Kyle Pitts Sr.,True,2
+2023,0,0,127,11 Bar Blues,James Cook III,True,2
+2023,0,0,128,11 Bar Blues,Drake London,True,11
+2023,0,0,129,11 Bar Blues,Christian McCaffrey,True,43
+2023,0,0,130,11 Bar Blues,Joe Burrow,True,3
+2023,0,0,131,The Bald Beauty,Garrett Wilson,True,25
+2023,0,0,132,The Bald Beauty,Ja'Marr Chase,True,25
+2023,0,0,133,The Bald Beauty,Travis Etienne Jr.,True,3
+2023,0,0,134,The Bald Beauty,DeVonta Smith,True,13
+2023,0,0,135,The Bald Beauty,Cam Akers,True,2
+2023,0,0,136,Good Times,Cooper Kupp,True,5
+2023,0,0,137,Good Times,George Kittle,True,5
+2023,0,0,138,Good Times,Tony Pollard,True,2
+2023,0,0,139,Good Times,Austin Ekeler,True,19
+2023,0,0,140,Good Times,Josh Allen,True,5
+2023,0,0,141,Big Al,Lamar Jackson,True,8
+2023,0,0,142,Big Al,Mark Andrews,True,9
+2023,0,0,143,Big Al,Derrick Henry,True,33
+2023,0,0,144,Big Al,Christian Kirk,True,5
+2023,0,0,145,Big Al,Stefon Diggs,True,20
+2023,0,0,146,Gonna Get a TD,Jameson Williams,True,2
+2023,0,0,147,Gonna Get a TD,George Pickens,True,7
+2023,0,0,148,Gonna Get a TD,Nick Chubb,True,13
+2023,0,0,149,Gonna Get a TD,A.J. Brown,True,11
+2023,0,0,150,Gonna Get a TD,Patrick Mahomes,True,11
+2024,0,0,1,Eric's Team,Travis Kelce,False,23
+2024,0,0,2,Eric's Team,Jonathon Brooks,False,7
+2024,0,0,3,11 Bar Blues,Justin Jefferson,False,53
+2024,0,0,4,Aro High,Marvin Harrison Jr.,False,32
+2024,0,0,5,Gonna Get a TD,Davante Adams,False,21
+2024,0,0,6,Big Al,Aaron Jones Sr.,False,10
+2024,0,0,7,Eric's Team,Trey McBride,False,16
+2024,0,0,8,Aro High,Kyler Murray,False,16
+2024,0,0,9,11 Bar Blues,De'Von Achane,False,32
+2024,0,0,10,Gonna Get a TD,Jahmyr Gibbs,False,43
+2024,0,0,11,The Bald Beauty,Jalen Hurts,False,18
+2024,0,0,12,The Bald Beauty,James Conner,False,12
+2024,0,0,13,Kickin' Balls,Derrick Henry,False,65
+2024,0,0,14,Big Al,Nick Chubb,False,7
+2024,0,0,15,Mini DITKA,Anthony Richardson Sr.,False,10
+2024,0,0,16,Gonna Get a TD,Evan Engram,False,17
+2024,0,0,17,Eric's Team,C.J. Stroud,False,8
+2024,0,0,18,Aro High,Jake Ferguson,False,8
+2024,0,0,19,11 Bar Blues,Jayden Daniels,False,4
+2024,0,0,20,The Big Dog,Chris Olave,False,40
+2024,0,0,21,Mini DITKA,Ravens,False,4
+2024,0,0,22,The Bald Beauty,George Kittle,False,20
+2024,0,0,23,Eric's Team,Terry McLaurin,False,9
+2024,0,0,24,The Big Dog,Jerome Ford,False,16
+2024,0,0,25,Gonna Get a TD,DK Metcalf,False,32
+2024,0,0,26,Aro High,Rachaad White,False,30
+2024,0,0,27,Mini DITKA,Nico Collins,False,34
+2024,0,0,28,The Bald Beauty,49ers,False,4
+2024,0,0,29,11 Bar Blues,Ladd McConkey,False,6
+2024,0,0,30,Mini DITKA,George Pickens,False,11
+2024,0,0,31,Eric's Team,Jets,False,5
+2024,0,0,32,Gonna Get a TD,Tank Dell,False,11
+2024,0,0,33,Gonna Get a TD,Rashee Rice,False,14
+2024,0,0,34,Big Al,Jayden Reed,False,5
+2024,0,0,35,Big Al,Jordan Love,False,8
+2024,0,0,36,The Big Dog,Kenneth Walker III,False,17
+2024,0,0,37,Gonna Get a TD,Tee Higgins,False,6
+2024,0,0,38,Aro High,Joe Mixon,False,18
+2024,0,0,39,11 Bar Blues,Brandon Aubrey,False,2
+2024,0,0,40,The Big Dog,Malik Nabers,False,20
+2024,0,0,41,Big Al,Justin Tucker,False,6
+2024,0,0,42,The Big Dog,Josh Jacobs,False,30
+2024,0,0,43,Eric's Team,Rhamondre Stevenson,False,16
+2024,0,0,44,Big Al,Blake Corum,False,8
+2024,0,0,45,Kickin' Balls,Ka'imi Fairbairn,False,2
+2024,0,0,46,The Bald Beauty,David Njoku,False,5
+2024,0,0,47,Aro High,Diontae Johnson,False,11
+2024,0,0,48,Big Al,Calvin Ridley,False,11
+2024,0,0,49,The Big Dog,Steelers,False,2
+2024,0,0,50,Mini DITKA,Raheem Mostert,False,15
+2024,0,0,51,Eric's Team,Younghoe Koo,False,3
+2024,0,0,52,The Bald Beauty,Keenan Allen,False,10
+2024,0,0,53,Big Al,Najee Harris,False,18
+2024,0,0,54,Big Al,Zamir White,False,13
+2024,0,0,55,Gonna Get a TD,Evan McPherson,False,1
+2024,0,0,56,Aro High,Trevor Lawrence,False,2
+2024,0,0,57,11 Bar Blues,Jaxon Smith-Njigba,False,3
+2024,0,0,58,Aro High,Dallas Goedert,False,3
+2024,0,0,59,The Bald Beauty,Devin Singletary,False,13
+2024,0,0,60,Mini DITKA,Dalton Kincaid,False,8
+2024,0,0,61,11 Bar Blues,Xavier Worthy,False,14
+2024,0,0,62,The Bald Beauty,Javonte Williams,False,12
+2024,0,0,63,Aro High,Christian Kirk,False,5
+2024,0,0,64,Aro High,Browns,False,3
+2024,0,0,65,Gonna Get a TD,Bengals,False,3
+2024,0,0,66,Kickin' Balls,Kirk Cousins,False,3
+2024,0,0,67,The Big Dog,Courtland Sutton,False,3
+2024,0,0,68,Aro High,Jake Elliott,False,1
+2024,0,0,69,Good Times,Chase Brown,False,6
+2024,0,0,70,Mini DITKA,Tony Pollard,False,11
+2024,0,0,71,Eric's Team,Rome Odunze,False,11
+2024,0,0,72,The Bald Beauty,Jordan Addison,False,7
+2024,0,0,73,Kickin' Balls,Zack Moss,False,2
+2024,0,0,74,Mini DITKA,Cowboys,False,2
+2024,0,0,75,Good Times,Brian Robinson,False,20
+2024,0,0,76,Good Times,Brock Bowers,False,5
+2024,0,0,77,Aro High,Bears,False,2
+2024,0,0,78,Big Al,Chiefs,False,2
+2024,0,0,79,The Bald Beauty,Chris Godwin Jr.,False,11
+2024,0,0,80,Eric's Team,Caleb Williams,False,4
+2024,0,0,81,The Big Dog,Harrison Butker,False,1
+2024,0,0,82,Gonna Get a TD,Gus Edwards,False,5
+2024,0,0,83,Kickin' Balls,Dalton Schultz,False,1
+2024,0,0,84,Good Times,Jason Sanders,False,1
+2024,0,0,85,11 Bar Blues,Rico Dowdle,False,5
+2024,0,0,86,Mini DITKA,Jake Moody,False,1
+2024,0,0,87,The Big Dog,Pat Freiermuth,False,1
+2024,0,0,88,Gonna Get a TD,MarShawn Lloyd,False,1
+2024,0,0,89,Kickin' Balls,Dolphins,False,1
+2024,0,0,90,The Big Dog,Trey Benson,False,4
+2024,0,0,91,11 Bar Blues,Bills,False,1
+2024,0,0,92,Mini DITKA,Austin Ekeler,False,3
+2024,0,0,93,Good Times,Brian Thomas Jr.,False,2
+2024,0,0,94,Good Times,Khalil Shakir,False,3
+2024,0,0,95,11 Bar Blues,Tyrone Tracy Jr.,False,1
+2024,0,0,96,Mini DITKA,Texans,False,1
+2024,0,0,97,Kickin' Balls,DeAndre Hopkins,False,2
+2024,0,0,98,Good Times,Joshua Palmer,False,1
+2024,0,0,99,Mini DITKA,Cole Kmet,False,1
+2024,0,0,100,Kickin' Balls,Jared Goff,False,1
+2024,0,0,101,Good Times,Chuba Hubbard,False,1
+2024,0,0,102,Kickin' Balls,Luke Musgrave,False,1
+2024,0,0,103,Good Times,Jameson Williams,False,1
+2024,0,0,104,Kickin' Balls,Vikings,False,1
+2024,0,0,105,Good Times,Eagles,False,1
+2024,0,0,106,Eric's Team,DJ Moore,True,17
+2024,0,0,107,Eric's Team,Saquon Barkley,True,9
+2024,0,0,108,Eric's Team,Breece Hall,True,20
+2024,0,0,109,Eric's Team,Kyren Williams,True,18
+2024,0,0,110,Eric's Team,CeeDee Lamb,True,11
+2024,0,0,111,The Big Dog,Justin Herbert,True,18
+2024,0,0,112,The Big Dog,Christian Watson,True,14
+2024,0,0,113,The Big Dog,Michael Pittman Jr.,True,4
+2024,0,0,114,The Big Dog,Puka Nacua,True,28
+2024,0,0,115,The Big Dog,Brock Purdy,True,2
+2024,0,0,116,Aro High,D'Andre Swift,True,7
+2024,0,0,117,Aro High,David Montgomery,True,29
+2024,0,0,118,Aro High,Brandon Aiyuk,True,9
+2024,0,0,119,Kickin' Balls,Zay Flowers,True,10
+2024,0,0,120,Kickin' Balls,Deebo Samuel,True,4
+2024,0,0,121,Kickin' Balls,Isiah Pacheco,True,5
+2024,0,0,122,Kickin' Balls,Alvin Kamara,True,11
+2024,0,0,123,Kickin' Balls,Amon-Ra St. Brown,True,27
+2024,0,0,124,Mini DITKA,Jonathan Taylor,True,22
+2024,0,0,125,Mini DITKA,Jaylen Waddle,True,8
+2024,0,0,126,Mini DITKA,Dak Prescott,True,4
+2024,0,0,127,11 Bar Blues,Joe Burrow,True,4
+2024,0,0,128,11 Bar Blues,Kyle Pitts Sr.,True,3
+2024,0,0,129,11 Bar Blues,James Cook III,True,3
+2024,0,0,130,11 Bar Blues,Christian McCaffrey,True,48
+2024,0,0,131,11 Bar Blues,Drake London,True,13
+2024,0,0,132,The Bald Beauty,Ja'Marr Chase,True,28
+2024,0,0,133,The Bald Beauty,Tua Tagovailoa,True,5
+2024,0,0,134,The Bald Beauty,Travis Etienne Jr.,True,4
+2024,0,0,135,The Bald Beauty,Garrett Wilson,True,28
+2024,0,0,136,The Bald Beauty,DeVonta Smith,True,15
+2024,0,0,137,Good Times,Sam LaPorta,True,4
+2024,0,0,138,Good Times,Bijan Robinson,True,72
+2024,0,0,139,Good Times,Tyreek Hill,True,71
+2024,0,0,140,Good Times,Cooper Kupp,True,6
+2024,0,0,141,Good Times,Josh Allen,True,6
+2024,0,0,142,Big Al,Mark Andrews,True,10
+2024,0,0,143,Big Al,Mike Evans,True,14
+2024,0,0,144,Big Al,Amari Cooper,True,14
+2024,0,0,145,Big Al,Stefon Diggs,True,22
+2024,0,0,146,Big Al,Lamar Jackson,True,9
+2024,0,0,147,Gonna Get a TD,Tyjae Spears,True,2
+2024,0,0,148,Gonna Get a TD,Jaylen Warren,True,2
+2024,0,0,149,Gonna Get a TD,A.J. Brown,True,13
+2024,0,0,150,Gonna Get a TD,Patrick Mahomes,True,13
+2025,0,0,1,The Big Dog,Ashton Jeanty,False,47
+2025,0,0,2,My ball Zach Ertz,Derrick Henry,False,41
+2025,0,0,3,Eric's Team,Josh Jacobs,False,45
+2025,0,0,4,Mini DITKA,Christian McCaffrey,False,37
+2025,0,0,5,Good Times,Nico Collins,False,49
+2025,0,0,6,Kickin' Balls,DK Metcalf,False,23
+2025,0,0,7,11 Bar Blues,Joe Burrow,False,18
+2025,0,0,8,My ball Zach Ertz,Justin Jefferson,False,43
+2025,0,0,9,Good Times,Bijan Robinson,False,71
+2025,0,0,10,Mini DITKA,Patrick Mahomes,False,8
+2025,0,0,11,The Big Dog,Omarion Hampton,False,51
+2025,0,0,12,The Bald Beauty,De'Von Achane,False,29
+2025,0,0,13,11 Bar Blues,Bucky Irving,False,43
+2025,0,0,14,Gonna Get a TD,Terry McLaurin,False,25
+2025,0,0,15,Eric's Team,Calvin Ridley,False,12
+2025,0,0,16,Eric's Team,Breece Hall,False,25
+2025,0,0,17,The Big Dog,Broncos,False,2
+2025,0,0,18,Gonna Get a TD,Bo Nix,False,5
+2025,0,0,19,11 Bar Blues,TreVeyon Henderson,False,54
+2025,0,0,20,My ball Zach Ertz,Baker Mayfield,False,16
+2025,0,0,21,Gonna Get a TD,Garrett Wilson,False,24
+2025,0,0,22,Kickin' Balls,DJ Moore,False,21
+2025,0,0,23,Raving 45,Xavier Worthy,False,11
+2025,0,0,24,Kickin' Balls,Jordan Love,False,3
+2025,0,0,25,Raving 45,Ravens,False,7
+2025,0,0,26,Mini DITKA,Travis Kelce,False,6
+2025,0,0,27,The Bald Beauty,James Conner,False,22
+2025,0,0,28,Gonna Get a TD,Jaylen Warren,False,7
+2025,0,0,29,Kickin' Balls,Kenneth Walker III,False,28
+2025,0,0,30,Eric's Team,Drake Maye,False,7
+2025,0,0,31,My ball Zach Ertz,Eagles,False,4
+2025,0,0,32,11 Bar Blues,Brandon Aubrey,False,2
+2025,0,0,33,Mini DITKA,Emeka Egbuka,False,14
+2025,0,0,34,Kickin' Balls,Sam LaPorta,False,14
+2025,0,0,35,Good Times,Tetairoa McMillan,False,23
+2025,0,0,36,Mini DITKA,Cameron Dicker,False,3
+2025,0,0,37,Eric's Team,Texans,False,1
+2025,0,0,38,Gonna Get a TD,J.K. Dobbins,False,8
+2025,0,0,39,The Bald Beauty,Zach Charbonnet,False,11
+2025,0,0,40,Mini DITKA,J.J. McCarthy,False,2
+2025,0,0,41,Kickin' Balls,Jake Bates,False,4
+2025,0,0,42,My ball Zach Ertz,Jameson Williams,False,22
+2025,0,0,43,My ball Zach Ertz,RJ Harvey,False,9
+2025,0,0,44,Raving 45,Tyreek Hill,False,13
+2025,0,0,45,Raving 45,Dallas Goedert,False,3
+2025,0,0,46,Mini DITKA,Rome Odunze,False,13
+2025,0,0,47,Kickin' Balls,Cam Skattebo,False,7
+2025,0,0,48,11 Bar Blues,Travis Hunter,False,13
+2025,0,0,49,Raving 45,Jakobi Meyers,False,8
+2025,0,0,50,The Bald Beauty,Michael Penix Jr.,False,2
+2025,0,0,51,Good Times,Tyler Bass,False,1
+2025,0,0,52,11 Bar Blues,Matthew Golden,False,9
+2025,0,0,53,My ball Zach Ertz,Ka'imi Fairbairn,False,1
+2025,0,0,54,Kickin' Balls,Steelers,False,5
+2025,0,0,55,Raving 45,Jerome Ford,False,3
+2025,0,0,56,Mini DITKA,Vikings,False,3
+2025,0,0,57,Eric's Team,Packers,False,1
+2025,0,0,58,The Bald Beauty,Rashee Rice,False,6
+2025,0,0,59,Mini DITKA,Jerry Jeudy,False,5
+2025,0,0,60,The Bald Beauty,Justin Herbert,False,3
+2025,0,0,61,The Big Dog,Tyrone Tracy Jr.,False,2
+2025,0,0,62,11 Bar Blues,Bills,False,2
+2025,0,0,63,Raving 45,Colston Loveland,False,5
+2025,0,0,64,Kickin' Balls,Khalil Shakir,False,4
+2025,0,0,65,Raving 45,Chris Olave,False,3
+2025,0,0,66,Kickin' Balls,Travis Etienne Jr.,False,4
+2025,0,0,67,Eric's Team,Jacory Croskey-Merritt,False,8
+2025,0,0,68,Gonna Get a TD,David Njoku,False,4
+2025,0,0,69,The Bald Beauty,Javonte Williams,False,3
+2025,0,0,70,Raving 45,Jared Goff,False,2
+2025,0,0,71,Mini DITKA,Lions,False,2
+2025,0,0,72,11 Bar Blues,Kaleb Johnson,False,17
+2025,0,0,73,The Big Dog,Tucker Kraft,False,12
+2025,0,0,74,Raving 45,Jake Elliott,False,1
+2025,0,0,75,Eric's Team,Chase McLaughlin,False,1
+2025,0,0,76,The Bald Beauty,Evan Engram,False,5
+2025,0,0,77,Gonna Get a TD,Jordan Addison,False,6
+2025,0,0,78,Eric's Team,Caleb Williams,False,2
+2025,0,0,79,Good Times,Chiefs,False,1
+2025,0,0,80,Eric's Team,Tyler Warren,False,12
+2025,0,0,81,My ball Zach Ertz,Zach Ertz,False,3
+2025,0,0,82,Eric's Team,Jauan Jennings,False,4
+2025,0,0,83,Gonna Get a TD,Cam Little,False,1
+2025,0,0,84,The Big Dog,Brandon Aiyuk,False,6
+2025,0,0,85,Good Times,Ricky Pearsall,False,14
+2025,0,0,86,Good Times,Justin Fields,False,1
+2025,0,0,87,The Big Dog,Mason Taylor,False,6
+2025,0,0,88,My ball Zach Ertz,Nick Chubb,False,1
+2025,0,0,89,Gonna Get a TD,Cardinals,False,1
+2025,0,0,90,The Bald Beauty,Cooper Kupp,False,1
+2025,0,0,91,11 Bar Blues,Jordan Mason,False,5
+2025,0,0,92,The Big Dog,Ollie Gordon II,False,2
+2025,0,0,93,11 Bar Blues,Brenton Strange,False,2
+2025,0,0,94,My ball Zach Ertz,Deebo Samuel,False,1
+2025,0,0,95,The Bald Beauty,Quinshon Judkins,False,14
+2025,0,0,96,The Big Dog,Bhayshul Tuten,False,1
+2025,0,0,97,Gonna Get a TD,Trey Benson,False,8
+2025,0,0,98,The Big Dog,Hunter Henry,False,1
+2025,0,0,99,Good Times,Braelon Allen,False,1
+2025,0,0,100,Good Times,Jaydon Blue,False,1
+2025,0,0,101,Good Times,Kyle Monangai,False,1
+2025,0,0,102,The Big Dog,Brock Purdy,True,3
+2025,0,0,103,The Big Dog,Courtland Sutton,True,4
+2025,0,0,104,The Big Dog,Malik Nabers,True,22
+2025,0,0,105,The Big Dog,Puka Nacua,True,32
+2025,0,0,106,The Big Dog,Matthew Stafford,True,2
+2025,0,0,107,The Bald Beauty,Jalen Hurts,True,20
+2025,0,0,108,The Bald Beauty,DeVonta Smith,True,17
+2025,0,0,109,The Bald Beauty,George Kittle,True,22
+2025,0,0,110,The Bald Beauty,Davante Adams,True,6
+2025,0,0,111,The Bald Beauty,Ja'Marr Chase,True,31
+2025,0,0,112,Mini DITKA,Dalton Kincaid,True,9
+2025,0,0,113,Mini DITKA,Jaylen Waddle,True,9
+2025,0,0,114,Mini DITKA,George Pickens,True,13
+2025,0,0,115,Mini DITKA,Tony Pollard,True,13
+2025,0,0,116,Mini DITKA,Jonathan Taylor,True,25
+2025,0,0,117,Good Times,Brock Bowers,True,6
+2025,0,0,118,Good Times,Chuba Hubbard,True,2
+2025,0,0,119,Good Times,Brian Thomas Jr.,True,10
+2025,0,0,120,Good Times,Chase Brown,True,3
+2025,0,0,121,Good Times,Josh Allen,True,7
+2025,0,0,122,Gonna Get a TD,Rashid Shaheed,True,2
+2025,0,0,123,Gonna Get a TD,Tank Bigsby,True,2
+2025,0,0,124,Gonna Get a TD,Tee Higgins,True,7
+2025,0,0,125,Gonna Get a TD,Jahmyr Gibbs,True,48
+2025,0,0,126,Gonna Get a TD,A.J. Brown,True,13
+2025,0,0,127,Eric's Team,CeeDee Lamb,True,13
+2025,0,0,128,Eric's Team,Trey McBride,True,18
+2025,0,0,129,Eric's Team,Saquon Barkley,True,11
+2025,0,0,130,Eric's Team,Amon-Ra St. Brown,True,30
+2025,0,0,131,My ball Zach Ertz,Mark Andrews,True,11
+2025,0,0,132,My ball Zach Ertz,Aaron Jones Sr.,True,11
+2025,0,0,133,My ball Zach Ertz,Jayden Reed,True,6
+2025,0,0,134,My ball Zach Ertz,Mike Evans,True,16
+2025,0,0,135,My ball Zach Ertz,Lamar Jackson,True,10
+2025,0,0,136,Raving 45,Jake Ferguson,True,9
+2025,0,0,137,Raving 45,David Montgomery,True,32
+2025,0,0,138,Raving 45,D'Andre Swift,True,8
+2025,0,0,139,Raving 45,Marvin Harrison Jr.,True,36
+2025,0,0,140,Raving 45,Kyler Murray,True,18
+2025,0,0,141,11 Bar Blues,Ladd McConkey,True,7
+2025,0,0,142,11 Bar Blues,Drake London,True,15
+2025,0,0,143,11 Bar Blues,James Cook III,True,4
+2025,0,0,144,11 Bar Blues,Jaxon Smith-Njigba,True,4
+2025,0,0,145,11 Bar Blues,Jayden Daniels,True,5
+2025,0,0,146,Kickin' Balls,Isiah Pacheco,True,6
+2025,0,0,147,Kickin' Balls,T.J. Hockenson,True,4
+2025,0,0,148,Kickin' Balls,Alvin Kamara,True,13
+2025,0,0,149,Kickin' Balls,Kyren Williams,True,20
+2025,0,0,150,Kickin' Balls,Zay Flowers,True,11
