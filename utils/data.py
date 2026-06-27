@@ -687,3 +687,228 @@ def get_keeper_history() -> pd.DataFrame:
     return keepers[["season", "team_name", "manager", "player_name", "position", "auction_price"]].sort_values(
         ["player_name", "season"]
     ).reset_index(drop=True)
+
+
+@st.cache_data
+def get_timeline_events() -> pd.DataFrame:
+    """Auto-generate timeline events from all data sources."""
+    import math
+
+    data    = load_all()
+    pg      = data.get("playoffs", pd.DataFrame())
+    wm      = data.get("matchups", pd.DataFrame())
+    fh      = data.get("franchise_history", pd.DataFrame())
+    tnh     = data.get("team_name_history", pd.DataFrame())
+    manual  = data.get("manual_timeline", pd.DataFrame())
+    tnh_map = tnh.set_index(["season", "team_name"])["canonical_name"].to_dict() if not tnh.empty else {}
+
+    events = []
+
+    # ── 1. CHAMPIONSHIPS ───────────────────────────────────────────────────────
+    if not pg.empty:
+        finals = pg[pg["game_type"] == "final"].sort_values("season")
+        title_counts: dict[str, int] = {}
+        for _, row in finals.iterrows():
+            szn     = int(row["season"])
+            winner  = tnh_map.get((szn, row["winner"]), row["winner"])
+            l_team  = row["team_2"] if row["winner"] == row["team_1"] else row["team_1"]
+            loser   = tnh_map.get((szn, l_team), l_team)
+            w_score = float(row["score_1"]) if row["winner"] == row["team_1"] else float(row["score_2"])
+            l_score = float(row["score_2"]) if row["winner"] == row["team_1"] else float(row["score_1"])
+            margin  = abs(w_score - l_score)
+            title_counts[winner] = title_counts.get(winner, 0) + 1
+            n = title_counts[winner]
+            szn_num = szn - FOUNDED + 1
+
+            if szn == FOUNDED:
+                flavor = (
+                    f"{winner} won the inaugural championship, "
+                    f"defeating {loser} {w_score:.2f}–{l_score:.2f}."
+                )
+            elif n == 2:
+                flavor = (
+                    f"{winner} claimed a second title, "
+                    f"defeating {loser} {w_score:.2f}–{l_score:.2f} by {margin:.2f}."
+                )
+            elif n == 3:
+                flavor = (
+                    f"{winner}'s third championship in {szn - FOUNDED + 1} seasons "
+                    f"confirmed a dynasty. {loser} fell {w_score:.2f}–{l_score:.2f}."
+                )
+            elif margin <= 5:
+                flavor = (
+                    f"{winner} survived a championship thriller, "
+                    f"edging {loser} {w_score:.2f}–{l_score:.2f} by just {margin:.2f}."
+                )
+            elif margin >= 80:
+                flavor = (
+                    f"{winner} dominated the final, beating {loser} "
+                    f"{w_score:.2f}–{l_score:.2f} by {margin:.0f} points."
+                )
+            else:
+                ordinal = {1:"first",2:"second",3:"third"}.get(n, f"{n}th")
+                flavor = (
+                    f"{winner} won their {ordinal} championship, "
+                    f"defeating {loser} {w_score:.2f}–{l_score:.2f}."
+                )
+
+            events.append({
+                "season": szn, "category": "championship",
+                "emoji": "🏆", "importance": 1,
+                "title": f"{winner} wins {szn} championship",
+                "description": flavor,
+                "detail": f"{w_score:.2f}–{l_score:.2f} over {loser} · margin {margin:.2f}",
+            })
+            events.append({
+                "season": szn, "category": "runner_up",
+                "emoji": "🥈", "importance": 2,
+                "title": f"{loser} — runner-up",
+                "description": f"{loser} reached the {szn} championship final, losing to {winner} {l_score:.2f}–{w_score:.2f}.",
+                "detail": f"Final score: {l_score:.2f}",
+            })
+
+    # ── 2. FRANCHISE CHANGES ───────────────────────────────────────────────────
+    if not fh.empty:
+        fh_s = fh.sort_values(["franchise_id", "season"])
+        for fid, grp in fh_s.groupby("franchise_id"):
+            mgrs = grp["manager_name"].tolist()
+            szns = grp["season"].tolist()
+            for i in range(1, len(mgrs)):
+                if mgrs[i] != mgrs[i - 1]:
+                    old_m, new_m, szn = mgrs[i - 1], mgrs[i], int(szns[i])
+                    events.append({
+                        "season": szn, "category": "franchise",
+                        "emoji": "🏠", "importance": 2,
+                        "title": f"{new_m} joins the league",
+                        "description": (
+                            f"{new_m} took over {fid} from {old_m}, "
+                            f"inheriting the franchise seat for the {szn} season."
+                        ),
+                        "detail": f"{fid}: {old_m} → {new_m}",
+                    })
+
+    # ── 3. KEEPER MILESTONES ───────────────────────────────────────────────────
+    chains = get_keeper_chains()
+    if not chains.empty:
+        draft = get_auction_data()
+        for _, chain in chains.iterrows():
+            seasons_list = chain["seasons"]
+            prices_list  = chain["prices"]
+            player       = chain["player_name"]
+            mgr          = chain["manager"]
+            n_kept       = chain["keeper_seasons"]
+
+            # Only milestone-worthy chains (3+ keeper seasons)
+            if n_kept < 3:
+                continue
+
+            # Event for first keeper year
+            if len(seasons_list) >= 2:
+                first_keeper_szn = int(seasons_list[1])
+                orig_price       = int(prices_list[0])
+                first_k_price    = int(prices_list[1])
+                events.append({
+                    "season": first_keeper_szn, "category": "keeper",
+                    "emoji": "🔑", "importance": 3,
+                    "title": f"{mgr} begins keeping {player}",
+                    "description": (
+                        f"{mgr} kept {player} for the first time "
+                        f"(${first_k_price}, up from ${orig_price} acquisition). "
+                        f"A chain that would last {n_kept} seasons."
+                    ),
+                    "detail": f"Original ${orig_price} → ${first_k_price} · chain total ${chain['total_spend']}",
+                })
+
+            # Event for final keeper year (if chain ended before current season)
+            final_szn = int(chain["final_season"])
+            if final_szn < CURRENT_SEASON:
+                final_price = int(chain["final_price"])
+                events.append({
+                    "season": final_szn, "category": "keeper",
+                    "emoji": "🔑", "importance": 3,
+                    "title": f"{player} era ends for {mgr}",
+                    "description": (
+                        f"After {n_kept} seasons, {mgr}'s {player} keeper chain ended. "
+                        f"Final price ${final_price}, total invested ${chain['total_spend']}."
+                    ),
+                    "detail": f"{n_kept} keeper seasons · ${chain['original_price']} → ${final_price}",
+                })
+
+    # ── 4. AUCTION RECORDS ─────────────────────────────────────────────────────
+    if not chains.empty or True:
+        draft = get_auction_data()
+        if not draft.empty:
+            fresh = draft[draft["is_keeper"] != True].copy()
+            running_record = 0
+            for szn in sorted(fresh["season"].unique()):
+                szn_fresh = fresh[fresh["season"] == szn]
+                if szn_fresh.empty:
+                    continue
+                top_row = szn_fresh.loc[szn_fresh["auction_price"].idxmax()]
+                price   = int(top_row["auction_price"])
+                player  = top_row["player_name"]
+                mgr     = top_row["manager"]
+                is_record = price > running_record
+                running_record = max(running_record, price)
+                importance = 2 if is_record else 3
+                record_tag = " — a new league record" if is_record else ""
+                events.append({
+                    "season": int(szn), "category": "auction",
+                    "emoji": "💰", "importance": importance,
+                    "title": f"${price} on {player}",
+                    "description": (
+                        f"{mgr} bid ${price} on {player}{record_tag}, "
+                        f"the highest bid of the {int(szn)} draft."
+                    ),
+                    "detail": f"${price} · {player} · {mgr}",
+                })
+
+    # ── 5. CLOSE REGULAR-SEASON GAMES ─────────────────────────────────────────
+    if not wm.empty:
+        rs = wm[~wm["is_bye"] & ~wm["is_playoff"]].copy()
+        rs["manager"]  = rs.apply(lambda r: tnh_map.get((int(r["season"]), r["team_name"]), r["team_name"]), axis=1)
+        rs["opp_mgr"]  = rs.apply(lambda r: tnh_map.get((int(r["season"]), r["opponent"]), r["opponent"]), axis=1)
+        rs["margin"]   = (rs["team_score"] - rs["opponent_score"]).abs()
+        # Only wins (avoid duplicates)
+        close_wins = rs[(rs["result"] == "Win") & (rs["margin"] < 0.5)].sort_values("margin")
+        for _, row in close_wins.iterrows():
+            m   = float(row["margin"])
+            mgr = row["manager"]
+            opp = row["opp_mgr"]
+            szn = int(row["season"])
+            wk  = int(row["week"])
+            ts  = float(row["team_score"])
+            os  = float(row["opponent_score"])
+            events.append({
+                "season": szn, "category": "rivalry",
+                "emoji": "⚔️", "importance": 2,
+                "title": f"{mgr} wins by {m:.2f} pts (Week {wk})",
+                "description": (
+                    f"{mgr} survived a {szn} Week {wk} showdown with {opp}, "
+                    f"winning {ts:.2f}–{os:.2f} by just {m:.2f} points."
+                ),
+                "detail": f"{ts:.2f}–{os:.2f} · margin {m:.2f}",
+            })
+
+    # ── 6. MANUAL EVENTS ───────────────────────────────────────────────────────
+    if not manual.empty and "season" in manual.columns:
+        for _, row in manual.iterrows():
+            if not row.get("show_on_league_timeline", True):
+                continue
+            events.append({
+                "season":      int(row.get("season", 0)),
+                "category":    row.get("event_type", "manual"),
+                "emoji":       "📌",
+                "importance":  int(row.get("importance", 2)),
+                "title":       str(row.get("title", "")),
+                "description": str(row.get("description", "")),
+                "detail":      "",
+            })
+
+    if not events:
+        return pd.DataFrame()
+
+    df = pd.DataFrame(events)
+    df["season"]     = df["season"].astype(int)
+    df["importance"] = df["importance"].astype(int)
+    return df.sort_values(["season", "importance"]).reset_index(drop=True)
