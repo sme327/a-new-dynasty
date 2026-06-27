@@ -570,6 +570,94 @@ def get_playoff_eliminations() -> pd.DataFrame:
 
 
 @st.cache_data
+def get_auction_data() -> pd.DataFrame:
+    """Full draft_picks enriched with manager canonical name and player position."""
+    data  = load_all()
+    draft = data.get("draft", pd.DataFrame())
+    tnh   = data.get("team_name_history", pd.DataFrame())
+    pos   = data.get("player_positions", pd.DataFrame())
+    if draft.empty:
+        return pd.DataFrame()
+
+    draft = draft.copy()
+    tnh_map = tnh.set_index(["season", "team_name"])["canonical_name"].to_dict()
+    draft["manager"] = draft.apply(
+        lambda r: tnh_map.get((int(r["season"]), r["team_name"]), r["team_name"]), axis=1
+    )
+    pos_map = pos.set_index("player_name")["position"].to_dict() if not pos.empty else {}
+    draft["position"] = draft["player_name"].map(pos_map).fillna("?")
+    draft["auction_price"] = pd.to_numeric(draft["auction_price"], errors="coerce").fillna(0).astype(int)
+    return draft
+
+
+@st.cache_data
+def get_player_market_history(player_name: str) -> pd.DataFrame:
+    """Full auction + keeper history for a single player across all seasons."""
+    d   = get_auction_data()
+    tnh = load_all().get("team_name_history", pd.DataFrame())
+    rows = d[d["player_name"] == player_name].copy()
+    if rows.empty:
+        return pd.DataFrame()
+    return rows[["season", "team_name", "manager", "is_keeper", "auction_price"]].sort_values("season").reset_index(drop=True)
+
+
+@st.cache_data
+def get_keeper_chains() -> pd.DataFrame:
+    """All multi-season keeper chains with original acquisition included."""
+    d = get_auction_data()
+    if d.empty:
+        return pd.DataFrame()
+
+    rows = []
+    for player, grp in d.groupby("player_name"):
+        grp = grp.sort_values("season")
+        # Find contiguous keeper runs by the same manager
+        grp = grp.reset_index(drop=True)
+        i = 0
+        while i < len(grp):
+            row = grp.iloc[i]
+            if not row["is_keeper"]:
+                # Potential start of a chain
+                orig_season = int(row["season"])
+                orig_price  = int(row["auction_price"])
+                orig_mgr    = row["manager"]
+                chain_seasons = [orig_season]
+                chain_prices  = [orig_price]
+                chain_is_keeper = [False]
+                j = i + 1
+                while j < len(grp):
+                    nxt = grp.iloc[j]
+                    if nxt["is_keeper"] and nxt["manager"] == orig_mgr and int(nxt["season"]) == chain_seasons[-1] + 1:
+                        chain_seasons.append(int(nxt["season"]))
+                        chain_prices.append(int(nxt["auction_price"]))
+                        chain_is_keeper.append(True)
+                        j += 1
+                    else:
+                        break
+                if len(chain_seasons) > 1:  # at least 1 keeper season
+                    rows.append({
+                        "player_name":      player,
+                        "manager":          orig_mgr,
+                        "position":         row["position"],
+                        "original_season":  orig_season,
+                        "original_price":   orig_price,
+                        "seasons":          chain_seasons,
+                        "prices":           chain_prices,
+                        "keeper_seasons":   len(chain_seasons) - 1,
+                        "total_spend":      sum(chain_prices),
+                        "final_price":      chain_prices[-1],
+                        "final_season":     chain_seasons[-1],
+                    })
+                i = j
+            else:
+                i += 1
+
+    if not rows:
+        return pd.DataFrame()
+    return pd.DataFrame(rows).sort_values("keeper_seasons", ascending=False).reset_index(drop=True)
+
+
+@st.cache_data
 def get_keeper_history() -> pd.DataFrame:
     """All keeper picks with manager name and position resolved."""
     data  = load_all()
