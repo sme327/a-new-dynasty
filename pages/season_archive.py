@@ -88,22 +88,22 @@ if champ_row is not None and len(champ_row) > 0:
     st.markdown(
         f"""
         <div style="text-align:center;padding:1rem 0 1.5rem;">
-            <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#A7B0BC;letter-spacing:5px;text-transform:uppercase;">The {season} Season</div>
-            <div style="font-family:'Bebas Neue',sans-serif;font-size:3rem;color:#F5F5F5;letter-spacing:4px;margin:0.3rem 0 0.5rem;">{title}</div>
+            <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#B8C3B5;letter-spacing:5px;text-transform:uppercase;">The {season} Season</div>
+            <div style="font-family:'Bebas Neue',sans-serif;font-size:3rem;color:#F5F3EA;letter-spacing:4px;margin:0.3rem 0 0.5rem;">{title}</div>
             <div style="font-size:3rem;">{champ_emoji}</div>
             <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#D4AF37;letter-spacing:3px;margin-top:0.5rem;">{c_team}</div>
-            <div style="font-family:'Inter',sans-serif;font-size:0.85rem;color:#F5F5F5;margin:0.25rem 0;">{c_mgr}</div>
-            <div style="font-family:'Inter',sans-serif;font-size:0.72rem;color:#A7B0BC;margin-top:0.25rem;">{c_score:.2f} – {ru_score:.2f} over {ru_team}</div>
+            <div style="font-family:'Inter',sans-serif;font-size:0.85rem;color:#F5F3EA;margin:0.25rem 0;">{c_mgr}</div>
+            <div style="font-family:'Inter',sans-serif;font-size:0.72rem;color:#B8C3B5;margin-top:0.25rem;">{c_score:.2f} – {ru_score:.2f} over {ru_team}</div>
         </div>
-        <div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid #D4AF37;border-radius:6px;padding:1rem 1.5rem;max-width:720px;margin:0 auto 1.5rem;">
-            <p style="font-family:'Inter',sans-serif;font-size:0.8rem;color:#A7B0BC;line-height:1.7;margin:0;">{narrative}</p>
+        <div style="background:#102418;border:1px solid #1A3525;border-left:4px solid #D4AF37;border-radius:6px;padding:1rem 1.5rem;max-width:720px;margin:0 auto 1.5rem;">
+            <p style="font-family:'Inter',sans-serif;font-size:0.8rem;color:#B8C3B5;line-height:1.7;margin:0;">{narrative}</p>
         </div>
         """,
         unsafe_allow_html=True,
     )
 else:
     st.markdown(
-        f'<div style="text-align:center;font-family:\'Bebas Neue\',sans-serif;font-size:2.5rem;color:#F5F5F5;letter-spacing:4px;">THE {season} SEASON</div>',
+        f'<div style="text-align:center;font-family:\'Bebas Neue\',sans-serif;font-size:2.5rem;color:#F5F3EA;letter-spacing:4px;">THE {season} SEASON</div>',
         unsafe_allow_html=True,
     )
 
@@ -165,11 +165,11 @@ def _game_html(row):
     m2_cls = "color:#D4AF37;font-weight:700;" if w == t2 else "color:#6B7280;"
     lbl    = row["game_type"].replace("_", " ").title()
     return (
-        f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-radius:6px;padding:10px 16px;margin-bottom:6px;">'
-        f'<div style="font-size:0.55rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;">{lbl}</div>'
+        f'<div style="background:#102418;border:1px solid #1A3525;border-radius:6px;padding:10px 16px;margin-bottom:6px;">'
+        f'<div style="font-size:0.55rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin-bottom:6px;">{lbl}</div>'
         f'<div style="display:flex;justify-content:space-between;align-items:center;">'
         f'<span style="font-family:\'Inter\',sans-serif;font-size:0.85rem;{m1_cls}">{t1}</span>'
-        f'<span style="font-family:\'Bebas Neue\',sans-serif;font-size:1.1rem;color:#F5F5F5;letter-spacing:2px;">{s1:.2f} – {s2:.2f}</span>'
+        f'<span style="font-family:\'Bebas Neue\',sans-serif;font-size:1.1rem;color:#F5F3EA;letter-spacing:2px;">{s1:.2f} – {s2:.2f}</span>'
         f'<span style="font-family:\'Inter\',sans-serif;font-size:0.85rem;{m2_cls}">{t2}</span>'
         f'</div>'
         f'</div>'
@@ -181,7 +181,7 @@ if len(champ_pg) > 0:
         st.markdown(_game_html(row), unsafe_allow_html=True)
 
 if consol_pg is not None and len(consol_pg) > 0:
-    st.markdown('<div style="font-size:0.6rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin-top:16px;margin-bottom:8px;">Consolation Bracket</div>', unsafe_allow_html=True)
+    st.markdown('<div style="font-size:0.6rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin-top:16px;margin-bottom:8px;">Consolation Bracket</div>', unsafe_allow_html=True)
     for _, row in consol_pg.iterrows():
         st.markdown(_game_html(row), unsafe_allow_html=True)
 

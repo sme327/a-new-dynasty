@@ -72,24 +72,24 @@ if not all_rivalries.empty:
 
         st.markdown(
             f"""
-            <div style="background:#0F1B2D;border:1px solid #1E2D40;border-radius:8px;padding:16px 20px;margin-bottom:10px;">
+            <div style="background:#102418;border:1px solid #1A3525;border-radius:8px;padding:16px 20px;margin-bottom:10px;">
                 <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
                     <div style="display:flex;align-items:center;gap:16px;">
                         <span style="font-size:1.5rem;">{_emoji(a)}</span>
                         <div>
                             <div style="font-family:'Bebas Neue',sans-serif;font-size:1.4rem;color:{ca};letter-spacing:2px;">{a}</div>
-                            <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#A7B0BC;">leads {aw}–{bw}</div>
+                            <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#B8C3B5;">leads {aw}–{bw}</div>
                         </div>
-                        <div style="font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:#F5F5F5;letter-spacing:4px;padding:0 8px;">VS</div>
+                        <div style="font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:#F5F3EA;letter-spacing:4px;padding:0 8px;">VS</div>
                         <div>
                             <div style="font-family:'Bebas Neue',sans-serif;font-size:1.4rem;color:{cb};letter-spacing:2px;">{b}</div>
-                            <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#A7B0BC;">{bw}–{aw}</div>
+                            <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#B8C3B5;">{bw}–{aw}</div>
                         </div>
                         <span style="font-size:1.5rem;">{_emoji(b)}</span>
                     </div>
                     <div style="text-align:right;">
-                        <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;">{games} games &nbsp;·&nbsp; avg margin {avg_m:.1f} pts</div>
-                        {f'<div style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#D4AF37;margin-top:3px;">{lead} leads by {lead_adv}</div>' if lead else '<div style="font-size:0.65rem;color:#A7B0BC;">Dead even</div>'}
+                        <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;">{games} games &nbsp;·&nbsp; avg margin {avg_m:.1f} pts</div>
+                        {f'<div style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#D4AF37;margin-top:3px;">{lead} leads by {lead_adv}</div>' if lead else '<div style="font-size:0.65rem;color:#B8C3B5;">Dead even</div>'}
                     </div>
                 </div>
             </div>
@@ -129,13 +129,13 @@ if mgr_a and mgr_b:
         st.markdown(
             f"""
             <div style="text-align:center;padding:1.5rem 0;">
-                <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#A7B0BC;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.5rem;">Head-to-Head Record</div>
-                <div style="font-family:'Bebas Neue',sans-serif;font-size:3rem;color:#F5F5F5;letter-spacing:4px;">
+                <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#B8C3B5;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.5rem;">Head-to-Head Record</div>
+                <div style="font-family:'Bebas Neue',sans-serif;font-size:3rem;color:#F5F3EA;letter-spacing:4px;">
                     <span style="color:{_color(mgr_a)};">{mgr_a}</span>
                     &nbsp;{a_wins} – {b_wins}&nbsp;
                     <span style="color:{_color(mgr_b)};">{mgr_b}</span>
                 </div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#A7B0BC;margin-top:0.5rem;">
+                <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#B8C3B5;margin-top:0.5rem;">
                     {games} regular season matchups &nbsp;·&nbsp; avg margin {avg_m:.1f} pts &nbsp;·&nbsp; {int(row['seasons_met'])} seasons together
                 </div>
             </div>
@@ -191,10 +191,10 @@ if not elim_df.empty:
         for _, row in eliminator_counts.head(5).iterrows():
             mgr = row["winner_mgr"]
             st.markdown(
-                f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid {_color(mgr)};'
+                f'<div style="background:#102418;border:1px solid #1A3525;border-left:4px solid {_color(mgr)};'
                 f'border-radius:6px;padding:8px 14px;margin-bottom:5px;">'
                 f'<span style="font-size:0.9rem;">{_emoji(mgr)}</span> '
-                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.82rem;color:#F5F5F5;">{mgr}</span>'
+                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.82rem;color:#F5F3EA;">{mgr}</span>'
                 f'<span style="float:right;font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#D4AF37;">{row["elims"]} elims</span>'
                 f'</div>',
                 unsafe_allow_html=True,
@@ -207,10 +207,10 @@ if not elim_df.empty:
         for _, row in victim_counts.head(5).iterrows():
             mgr = row["loser_mgr"]
             st.markdown(
-                f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid {_color(mgr)};'
+                f'<div style="background:#102418;border:1px solid #1A3525;border-left:4px solid {_color(mgr)};'
                 f'border-radius:6px;padding:8px 14px;margin-bottom:5px;">'
                 f'<span style="font-size:0.9rem;">{_emoji(mgr)}</span> '
-                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.82rem;color:#F5F5F5;">{mgr}</span>'
+                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.82rem;color:#F5F3EA;">{mgr}</span>'
                 f'<span style="float:right;font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#F87171;">{row["times_elim"]}×</span>'
                 f'</div>',
                 unsafe_allow_html=True,
@@ -218,7 +218,7 @@ if not elim_df.empty:
 
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown(
-        '<div style="font-size:0.6rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;">Full Elimination History</div>',
+        '<div style="font-size:0.6rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin-bottom:8px;">Full Elimination History</div>',
         unsafe_allow_html=True,
     )
     elim_rows = []

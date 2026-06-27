@@ -4,8 +4,9 @@ from utils.data import MANAGER_EMOJI
 
 
 _CSS = """
-        .stApp { background-color: #081120 !important; }
-        .main  { background-color: #081120 !important; }
+        /* ── Dynasty Green · A New Dynasty ─────────────────────────────────── */
+        .stApp { background-color: #07120D !important; }
+        .main  { background-color: #07120D !important; }
         #MainMenu { visibility: hidden; }
         footer    { visibility: hidden; }
         header    { visibility: hidden; }
@@ -21,8 +22,8 @@ _CSS = """
             position: fixed;
             top: 0; left: 0; right: 0;
             z-index: 9999;
-            background: #081120;
-            border-bottom: 1px solid #B8902E;
+            background: #07120D;
+            border-bottom: 1px solid rgba(212,175,55,0.35);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -41,7 +42,7 @@ _CSS = """
             font-family: 'Inter', sans-serif;
             font-size: 0.62rem;
             font-weight: 500;
-            color: #A7B0BC;
+            color: #B8C3B5;
             text-decoration: none !important;
             letter-spacing: 1.5px;
             text-transform: uppercase;
@@ -50,7 +51,7 @@ _CSS = """
             transition: color 0.2s, border-color 0.2s;
             white-space: nowrap;
         }
-        .tl-nav-link:hover { color: #D4AF37; border-bottom-color: #D4AF37; }
+        .tl-nav-link:hover { color: #3FA66B; border-bottom-color: #3FA66B; }
         .tl-nav-link.active { color: #D4AF37; border-bottom-color: #D4AF37; }
         .tl-hero { text-align: center; padding: 2.5rem 0 1.5rem; }
         .tl-hero-title {
@@ -64,7 +65,7 @@ _CSS = """
         .tl-hero-subtitle {
             font-family: 'Inter', sans-serif;
             font-size: 0.78rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             letter-spacing: 6px;
             text-transform: uppercase;
             margin-top: 0.5rem;
@@ -80,7 +81,7 @@ _CSS = """
         .tl-page-subtitle {
             font-family: 'Inter', sans-serif;
             font-size: 0.72rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             letter-spacing: 3px;
             text-transform: uppercase;
             margin-top: 0.3rem;
@@ -94,15 +95,14 @@ _CSS = """
         }
         .tl-divider-full {
             height: 1px;
-            background: #B8902E;
+            background: linear-gradient(to right, rgba(46,139,87,0.4), rgba(212,175,55,0.3), rgba(46,139,87,0.4));
             margin: 1.5rem 0;
-            opacity: 0.4;
             border: none;
         }
         .tl-section-label {
             font-family: 'Inter', sans-serif;
             font-size: 0.65rem;
-            color: #A7B0BC;
+            color: #3FA66B;
             letter-spacing: 4px;
             text-transform: uppercase;
             margin-bottom: 0.25rem;
@@ -110,16 +110,17 @@ _CSS = """
         .tl-section-title {
             font-family: 'Bebas Neue', sans-serif;
             font-size: 1.8rem;
-            color: #F5F5F5;
+            color: #F5F3EA;
             letter-spacing: 3px;
             margin: 0 0 1rem 0;
         }
         .tl-metric {
-            background: #0F1B2D;
-            border: 1px solid #B8902E;
+            background: #102418;
+            border: 1px solid rgba(212,175,55,0.3);
             border-radius: 8px;
             padding: 1.4rem 1rem;
             text-align: center;
+            box-shadow: 0 0 20px rgba(46,139,87,0.08);
         }
         .tl-metric-value {
             font-family: 'Bebas Neue', sans-serif;
@@ -131,36 +132,36 @@ _CSS = """
         .tl-metric-label {
             font-family: 'Inter', sans-serif;
             font-size: 0.62rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             letter-spacing: 3px;
             text-transform: uppercase;
             margin-top: 0.4rem;
         }
         .tl-card {
-            background: #0F1B2D;
-            border: 1px solid #B8902E;
+            background: #102418;
+            border: 1px solid rgba(46,139,87,0.4);
             border-radius: 8px;
             padding: 1.5rem;
         }
         .tl-card-gold {
-            background: #0F1B2D;
+            background: #102418;
             border: 1px solid #D4AF37;
             border-radius: 8px;
             padding: 1.5rem;
-            box-shadow: 0 0 30px rgba(212,175,55,0.08);
+            box-shadow: 0 0 30px rgba(212,175,55,0.08), 0 0 60px rgba(46,139,87,0.06);
         }
         .tl-champion-card {
-            background: #0F1B2D;
+            background: #102418;
             border: 2px solid #D4AF37;
             border-radius: 12px;
             padding: 2.5rem 2rem;
             text-align: center;
-            box-shadow: 0 0 50px rgba(212,175,55,0.12);
+            box-shadow: 0 0 60px rgba(212,175,55,0.12), 0 0 120px rgba(46,139,87,0.10);
         }
         .tl-champion-season {
             font-family: 'Inter', sans-serif;
             font-size: 0.7rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             letter-spacing: 4px;
             text-transform: uppercase;
         }
@@ -175,18 +176,18 @@ _CSS = """
         .tl-champion-manager {
             font-family: 'Inter', sans-serif;
             font-size: 1rem;
-            color: #F5F5F5;
+            color: #F5F3EA;
             font-weight: 500;
         }
         .tl-champion-score {
             font-family: 'Inter', sans-serif;
             font-size: 0.8rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             margin-top: 0.75rem;
         }
         .tl-mini-champ {
-            background: #0F1B2D;
-            border: 1px solid #B8902E;
+            background: #102418;
+            border: 1px solid rgba(212,175,55,0.3);
             border-radius: 8px;
             padding: 1rem;
             text-align: center;
@@ -201,19 +202,19 @@ _CSS = """
         .tl-mini-champ-team {
             font-family: 'Inter', sans-serif;
             font-size: 0.78rem;
-            color: #F5F5F5;
+            color: #F5F3EA;
             font-weight: 500;
             margin-top: 0.3rem;
         }
         .tl-mini-champ-mgr {
             font-family: 'Inter', sans-serif;
             font-size: 0.68rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             margin-top: 0.1rem;
         }
         .tl-nav-card {
-            background: #0F1B2D;
-            border: 1px solid #B8902E;
+            background: #102418;
+            border: 1px solid rgba(46,139,87,0.4);
             border-radius: 8px;
             padding: 1.5rem;
             text-align: center;
@@ -223,7 +224,7 @@ _CSS = """
         }
         .tl-nav-card:hover {
             border-color: #D4AF37;
-            box-shadow: 0 0 20px rgba(212,175,55,0.1);
+            box-shadow: 0 0 24px rgba(46,139,87,0.18), 0 0 8px rgba(212,175,55,0.10);
             transform: translateY(-2px);
         }
         .tl-nav-card-icon { font-size: 2rem; margin-bottom: 0.5rem; }
@@ -237,13 +238,13 @@ _CSS = """
         .tl-nav-card-desc {
             font-family: 'Inter', sans-serif;
             font-size: 0.72rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             margin-top: 0.3rem;
             line-height: 1.4;
         }
         .tl-trophy-card {
-            background: #0F1B2D;
-            border: 1px solid #B8902E;
+            background: #102418;
+            border: 1px solid rgba(46,139,87,0.4);
             border-radius: 8px;
             padding: 1.2rem 1.5rem;
             display: flex;
@@ -262,24 +263,24 @@ _CSS = """
         .tl-trophy-name {
             font-family: 'Inter', sans-serif;
             font-size: 1rem;
-            color: #F5F5F5;
+            color: #F5F3EA;
             font-weight: 600;
         }
         .tl-trophy-years {
             font-family: 'Inter', sans-serif;
             font-size: 0.72rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             margin-top: 0.15rem;
         }
         .tl-avatar {
             border-radius: 50%;
-            background: #0F1B2D;
+            background: #102418;
             border: 2px solid #D4AF37;
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0 auto;
-            box-shadow: 0 0 20px rgba(212,175,55,0.15);
+            box-shadow: 0 0 20px rgba(212,175,55,0.15), 0 0 40px rgba(46,139,87,0.10);
         }
         .tl-profile-name {
             font-family: 'Bebas Neue', sans-serif;
@@ -292,7 +293,7 @@ _CSS = """
         .tl-profile-meta {
             font-family: 'Inter', sans-serif;
             font-size: 0.72rem;
-            color: #A7B0BC;
+            color: #B8C3B5;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
@@ -303,30 +304,30 @@ _CSS = """
             font-size: 0.85rem;
         }
         .tl-table th {
-            background: #0F1B2D;
+            background: #102418;
             color: #D4AF37;
             font-weight: 600;
             letter-spacing: 1.5px;
             text-transform: uppercase;
             font-size: 0.68rem;
             padding: 0.7rem 1rem;
-            border-bottom: 1px solid #B8902E;
+            border-bottom: 1px solid rgba(46,139,87,0.5);
             text-align: left;
         }
         .tl-table td {
             padding: 0.6rem 1rem;
-            color: #F5F5F5;
-            border-bottom: 1px solid rgba(184,144,46,0.12);
+            color: #F5F3EA;
+            border-bottom: 1px solid rgba(46,139,87,0.15);
         }
         .tl-table tr:last-child td { border-bottom: none; }
-        .tl-table tr:hover td { background: rgba(212,175,55,0.04); }
+        .tl-table tr:hover td { background: rgba(46,139,87,0.06); }
         .tl-table .gold  { color: #D4AF37; font-weight: 600; }
-        .tl-table .muted { color: #A7B0BC; }
+        .tl-table .muted { color: #B8C3B5; }
         .tl-table .center { text-align: center; }
         .tl-table .right  { text-align: right; }
-        div[data-testid="stMarkdownContainer"] p { color: #F5F5F5; }
-        .stSelectbox > label { color: #A7B0BC !important; font-family: 'Inter', sans-serif; font-size: 0.75rem !important; letter-spacing: 2px; text-transform: uppercase; }
-        div[data-baseweb="select"] { background: #0F1B2D !important; border-color: #B8902E !important; }
+        div[data-testid="stMarkdownContainer"] p { color: #F5F3EA; }
+        .stSelectbox > label { color: #B8C3B5 !important; font-family: 'Inter', sans-serif; font-size: 0.75rem !important; letter-spacing: 2px; text-transform: uppercase; }
+        div[data-baseweb="select"] { background: #102418 !important; border-color: rgba(46,139,87,0.5) !important; }
 
         /* ── MOBILE NAV ─────────────────────────────────── */
         .tl-nav-toggle-cb { display: none; }
@@ -361,7 +362,7 @@ _CSS = """
                 width: 100%;
                 gap: 0;
                 padding: 0.4rem 0 0.75rem;
-                border-top: 1px solid rgba(184,144,46,0.25);
+                border-top: 1px solid rgba(46,139,87,0.3);
                 margin-top: 4px;
             }
             .tl-nav-toggle-cb:checked ~ .tl-nav-links { display: flex; }
@@ -378,7 +379,7 @@ _CSS = """
                 border-bottom-color: transparent !important;
             }
             .tl-nav-link:hover {
-                border-left-color: #D4AF37;
+                border-left-color: #3FA66B;
                 border-bottom-color: transparent !important;
             }
         }

@@ -88,16 +88,16 @@ curr_emoji = MANAGER_EMOJI.get(current_champ["champion_manager"], "")
 st.markdown(
     f"""
     <div style="text-align:center;padding:0.75rem 0 1.25rem;">
-        <div style="font-family:'Bebas Neue',sans-serif;font-size:1.2rem;color:#A7B0BC;letter-spacing:4px;line-height:2.2;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:1.2rem;color:#B8C3B5;letter-spacing:4px;line-height:2.2;">
             {total_seasons} SEASONS &nbsp;·&nbsp; {len(champions)} CHAMPIONS CROWNED &nbsp;·&nbsp; ONLY {unique_mgrs} MANAGERS HAVE EVER LIFTED THE TROPHY
         </div>
         <div style="display:flex;justify-content:center;gap:5rem;margin-top:1rem;flex-wrap:wrap;">
             <div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#A7B0BC;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.2rem;">Most Championships</div>
+                <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#B8C3B5;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.2rem;">Most Championships</div>
                 <div style="font-family:'Bebas Neue',sans-serif;font-size:1.3rem;color:#D4AF37;letter-spacing:3px;">{top_emoji}&nbsp;{top_champ['champion_manager']} &nbsp;—&nbsp; {top_champ['championships']}</div>
             </div>
             <div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#A7B0BC;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.2rem;">Reigning Champion</div>
+                <div style="font-family:'Inter',sans-serif;font-size:0.58rem;color:#B8C3B5;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.2rem;">Reigning Champion</div>
                 <div style="font-family:'Bebas Neue',sans-serif;font-size:1.3rem;color:#D4AF37;letter-spacing:3px;">{curr_emoji}&nbsp;{current_champ['champion_manager']} &nbsp;—&nbsp; {CURRENT_SEASON}</div>
             </div>
         </div>
@@ -129,7 +129,7 @@ if view_mode == "Managers":
         border = "gold-border" if i == 0 else ""
         fr     = finals_rec.loc[mgr] if mgr in finals_rec.index else None
         fin_html = (
-            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.64rem;color:#A7B0BC;margin-top:0.3rem;">'
+            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.64rem;color:#B8C3B5;margin-top:0.3rem;">'
             f'{int(fr["finals_apps"])} Finals &nbsp;·&nbsp; {fr["win_pct"]:.0%} Win Rate</div>'
         ) if fr is not None else ""
         with col:
@@ -207,7 +207,7 @@ for entry in timeline_data:
         f'<div class="tl-chron-entry">'
         f'<div class="tl-chron-mgr-col">'
         f'<span style="font-size:1rem;">{emoji}</span><span>{mgr}</span>'
-        f'<span style="font-family:\'Inter\',sans-serif;font-size:0.6rem;color:#A7B0BC;font-weight:400;">({n})</span>'
+        f'<span style="font-family:\'Inter\',sans-serif;font-size:0.6rem;color:#B8C3B5;font-weight:400;">({n})</span>'
         f'</div>'
         f'<div class="tl-chron-pills-col">{pills}</div>'
         f'</div>'
@@ -240,7 +240,7 @@ if dynasties:
         era_desc   = f"{n} consecutive championships" if (is_consec and n > 1) else f"{n} titles across {span} seasons ({first_yr}–{last_yr})"
         fr         = finals_rec.loc[mgr] if mgr in finals_rec.index else None
         fin_line   = (
-            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.68rem;color:#A7B0BC;margin-top:0.15rem;">'
+            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.68rem;color:#B8C3B5;margin-top:0.15rem;">'
             f'{int(fr["titles"])} titles in {int(fr["finals_apps"])} finals appearances</div>'
         ) if fr is not None else ""
         plural = "s" if n != 1 else ""
@@ -249,9 +249,9 @@ if dynasties:
                 f"""<div class="tl-dynasty-card">
                     <div style="font-size:2.8rem;margin-bottom:0.6rem;">{emoji}</div>
                     <div style="font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:#D4AF37;letter-spacing:3px;line-height:1;">{mgr}</div>
-                    <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:#F5F5F5;line-height:1;margin:0.35rem 0 0.1rem;">{n}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin-bottom:0.75rem;">Championship{plural}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.72rem;color:#A7B0BC;line-height:1.5;">{era_desc}</div>
+                    <div style="font-family:'Bebas Neue',sans-serif;font-size:3.5rem;color:#F5F3EA;line-height:1;margin:0.35rem 0 0.1rem;">{n}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin-bottom:0.75rem;">Championship{plural}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.72rem;color:#B8C3B5;line-height:1.5;">{era_desc}</div>
                     {fin_line}
                     <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#D4AF37;margin-top:0.6rem;letter-spacing:1px;">{yrs}</div>
                 </div>""",
@@ -259,7 +259,7 @@ if dynasties:
             )
 else:
     st.markdown(
-        '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.8rem;">No dynasty yet — '
+        '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.8rem;">No dynasty yet — '
         'this league is still waiting for its first repeat champion.</p>',
         unsafe_allow_html=True,
     )
@@ -281,7 +281,7 @@ def trivia_card(label, headline, sub):
     <div class="tl-card">
         <div class="tl-section-label">{label}</div>
         <div style="font-family:'Bebas Neue',sans-serif;font-size:1.5rem;color:#D4AF37;letter-spacing:2px;">{headline}</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.75rem;color:#A7B0BC;margin-top:0.2rem;">{sub}</div>
+        <div style="font-family:'Inter',sans-serif;font-size:0.75rem;color:#B8C3B5;margin-top:0.2rem;">{sub}</div>
     </div>"""
 
 biggest      = champions.loc[champions["margin"].idxmax()]
@@ -339,7 +339,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.markdown(
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'Championships tell one side of the story. The near-misses, the collapses, and the heartbreaks tell the other.</p>',
     unsafe_allow_html=True,
 )
@@ -386,14 +386,14 @@ _active_no_title = manager_stats[
 
 def _pain_card(icon, title, headline, sub, color="#F87171"):
     return (
-        f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid {color};'
+        f'<div style="background:#102418;border:1px solid #1A3525;border-left:4px solid {color};'
         f'border-radius:6px;padding:16px 18px;height:100%;">'
         f'<div style="font-size:1.5rem;margin-bottom:6px;">{icon}</div>'
-        f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#A7B0BC;'
+        f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#B8C3B5;'
         f'letter-spacing:3px;text-transform:uppercase;margin-bottom:4px;">{title}</div>'
         f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.3rem;color:{color};'
         f'letter-spacing:2px;line-height:1.1;margin-bottom:6px;">{headline}</div>'
-        f'<div style="font-family:\'Inter\',sans-serif;font-size:0.68rem;color:#A7B0BC;'
+        f'<div style="font-family:\'Inter\',sans-serif;font-size:0.68rem;color:#B8C3B5;'
         f'line-height:1.5;">{sub}</div>'
         f'</div>'
     )

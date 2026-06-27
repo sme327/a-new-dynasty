@@ -75,7 +75,7 @@ st.markdown(
     <div class="tl-hero">
         <div class="tl-hero-title">A NEW DYNASTY</div>
         <div class="tl-hero-subtitle">{LEAGUE_SUBTITLE}</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#A7B0BC;
+        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#B8C3B5;
                     margin-top:1.1rem;letter-spacing:1px;font-style:italic;line-height:1.8;">
             Built to last.&nbsp; Paid to keep.&nbsp; Hard to win.
         </div>
@@ -104,10 +104,10 @@ if not champions.empty:
                 f"""
                 <div class="tl-champion-card" style="padding:3rem 2.5rem;box-shadow:0 0 80px rgba(212,175,55,0.22);">
                     <div style="font-size:4rem;margin-bottom:0.5rem;">{champ_emoji}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#A7B0BC;letter-spacing:6px;text-transform:uppercase;">🏆 {CURRENT_SEASON} League Champion 🏆</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#B8C3B5;letter-spacing:6px;text-transform:uppercase;">🏆 {CURRENT_SEASON} League Champion 🏆</div>
                     <div style="font-family:'Bebas Neue',sans-serif;font-size:4.5rem;color:#D4AF37;letter-spacing:5px;line-height:1;margin:0.3rem 0 0.25rem;">{current['champion_team']}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:1.05rem;color:#F5F5F5;font-weight:500;">{current['champion_manager']}{title_badge}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.8rem;color:#A7B0BC;margin-top:0.75rem;">{current['champion_score']:.2f} – {current['runner_up_score']:.2f} over {current['runner_up_team']}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:1.05rem;color:#F5F3EA;font-weight:500;">{current['champion_manager']}{title_badge}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.8rem;color:#B8C3B5;margin-top:0.75rem;">{current['champion_score']:.2f} – {current['runner_up_score']:.2f} over {current['runner_up_team']}</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -167,7 +167,7 @@ if legend_counts is not None:
     st.markdown(
         '<div class="tl-section-label" style="text-align:center;">All-Time</div>'
         '<div style="text-align:center;font-family:\'Bebas Neue\',sans-serif;font-size:2rem;'
-        'color:#F5F5F5;letter-spacing:4px;margin-bottom:1.25rem;">League Legends</div>',
+        'color:#F5F3EA;letter-spacing:4px;margin-bottom:1.25rem;">League Legends</div>',
         unsafe_allow_html=True,
     )
 
@@ -183,9 +183,9 @@ if legend_counts is not None:
                 f"""<div class="tl-card" style="text-align:center;padding:1.5rem 1rem;">
                     <div style="font-size:2.2rem;margin-bottom:0.4rem;">{leg_emoji}</div>
                     <div style="font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#D4AF37;letter-spacing:2px;line-height:1;">{leg["titles"]}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin:0.1rem 0 0.4rem;">Championship{plural}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.92rem;color:#F5F5F5;font-weight:600;">{leg["champion_manager"]}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.64rem;color:#A7B0BC;margin-top:0.15rem;">{leg["years"]}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin:0.1rem 0 0.4rem;">Championship{plural}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.92rem;color:#F5F3EA;font-weight:600;">{leg["champion_manager"]}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.64rem;color:#B8C3B5;margin-top:0.15rem;">{leg["years"]}</div>
                 </div>""",
                 unsafe_allow_html=True,
             )
@@ -197,10 +197,10 @@ if legend_counts is not None:
             st.markdown(
                 f"""<div class="tl-card" style="text-align:center;padding:1.5rem 1rem;border-color:rgba(184,144,46,0.4);">
                     <div style="font-size:2.2rem;margin-bottom:0.4rem;">{hb_emoji}</div>
-                    <div style="font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#A7B0BC;letter-spacing:2px;line-height:1;">{int(hb['playoff_apps'])}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin:0.1rem 0 0.4rem;">Playoff Trips &nbsp;·&nbsp; 0 Titles</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.92rem;color:#F5F5F5;font-weight:600;">{hb['canonical_name']}</div>
-                    <div style="font-family:'Inter',sans-serif;font-size:0.64rem;color:#A7B0BC;margin-top:0.15rem;">Still waiting...</div>
+                    <div style="font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#B8C3B5;letter-spacing:2px;line-height:1;">{int(hb['playoff_apps'])}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.6rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin:0.1rem 0 0.4rem;">Playoff Trips &nbsp;·&nbsp; 0 Titles</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.92rem;color:#F5F3EA;font-weight:600;">{hb['canonical_name']}</div>
+                    <div style="font-family:'Inter',sans-serif;font-size:0.64rem;color:#B8C3B5;margin-top:0.15rem;">Still waiting...</div>
                 </div>""",
                 unsafe_allow_html=True,
             )
@@ -211,7 +211,7 @@ if legend_counts is not None:
 st.markdown(
     '<div class="tl-section-label" style="text-align:center;">The Numbers Behind the Legend</div>'
     '<div style="text-align:center;font-family:\'Bebas Neue\',sans-serif;font-size:2rem;'
-    'color:#F5F5F5;letter-spacing:4px;margin-bottom:1.25rem;">League Storylines</div>',
+    'color:#F5F3EA;letter-spacing:4px;margin-bottom:1.25rem;">League Storylines</div>',
     unsafe_allow_html=True,
 )
 
@@ -221,7 +221,7 @@ def _story(label, headline, sub):
         f'<div class="tl-section-label">{label}</div>'
         f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.8rem;color:#D4AF37;'
         f'letter-spacing:2px;line-height:1.1;margin:0.2rem 0;">{headline}</div>'
-        f'<div style="font-family:\'Inter\',sans-serif;font-size:0.75rem;color:#A7B0BC;'
+        f'<div style="font-family:\'Inter\',sans-serif;font-size:0.75rem;color:#B8C3B5;'
         f'margin-top:0.35rem;line-height:1.5;">{sub}</div>'
         f'</div>'
     )
@@ -265,7 +265,7 @@ st.markdown('<hr class="tl-divider">', unsafe_allow_html=True)
 st.markdown(
     '<div class="tl-section-label" style="text-align:center;">Museum Destinations</div>'
     '<div style="text-align:center;font-family:\'Bebas Neue\',sans-serif;font-size:2rem;'
-    'color:#F5F5F5;letter-spacing:4px;margin-bottom:0.4rem;">Explore the Exhibits</div>'
+    'color:#F5F3EA;letter-spacing:4px;margin-bottom:0.4rem;">Explore the Exhibits</div>'
     '<div style="text-align:center;font-family:\'Inter\',sans-serif;font-size:0.75rem;'
     'color:#6B7280;margin-bottom:1.5rem;">Every section is a destination. Start anywhere.</div>',
     unsafe_allow_html=True,
@@ -288,7 +288,7 @@ for row in [exhibits_row1, exhibits_row2]:
         with col:
             st.markdown(
                 f"""<a href="{href}" class="tl-nav-card" target="_self">
-                    <div style="font-size:0.55rem;color:#A7B0BC;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.5rem;">EXHIBIT</div>
+                    <div style="font-size:0.55rem;color:#B8C3B5;letter-spacing:4px;text-transform:uppercase;margin-bottom:0.5rem;">EXHIBIT</div>
                     <div class="tl-nav-card-icon">{icon}</div>
                     <div class="tl-nav-card-title">{title}</div>
                     <div class="tl-nav-card-desc">{desc}</div>
@@ -302,7 +302,7 @@ st.markdown(
     f"""
     <div style="text-align:center;padding:3rem 0 2rem;">
         <div style="height:1px;background:linear-gradient(to right,transparent,#D4AF37,transparent);margin:0 auto 2rem;max-width:400px;"></div>
-        <div style="font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:#F5F5F5;letter-spacing:4px;line-height:1.8;">
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:#F5F3EA;letter-spacing:4px;line-height:1.8;">
             {total_seasons} SEASONS.<br>{unique_champions} DIFFERENT CHAMPIONS.<br>ONE KEEPER LEAGUE THAT NEVER QUIT.
         </div>
         <div style="margin-top:1.75rem;">

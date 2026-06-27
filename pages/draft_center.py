@@ -24,7 +24,7 @@ keepers = get_keeper_history()
 chains  = get_keeper_chains()
 
 POSITIONS = ["QB", "RB", "WR", "TE"]
-POS_COLORS = {"QB": "#D4AF37", "RB": "#60A5FA", "WR": "#EC4899", "TE": "#10B981", "K": "#6B7280", "DEF": "#6B7280"}
+POS_COLORS = {"QB": "#D4AF37", "RB": "#3FA66B", "WR": "#EC4899", "TE": "#10B981", "K": "#6B7280", "DEF": "#6B7280"}
 seasons_played = sorted(draft["season"].unique().tolist()) if not draft.empty else []
 
 # Pre-compute fresh (non-keeper) picks
@@ -36,7 +36,7 @@ st.markdown(
     <div class="tl-hero">
         <div class="tl-hero-title">DRAFT CENTER</div>
         <div class="tl-hero-subtitle">Snake drafts tell you who was available. Auction drafts tell you what people actually believe.</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#A7B0BC;
+        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#B8C3B5;
                     margin-top:1.1rem;letter-spacing:1px;font-style:italic;line-height:1.8;">
             Seven years of bids, budgets, and the economics of belief.
         </div>
@@ -75,7 +75,7 @@ st.markdown('<hr class="tl-divider">', unsafe_allow_html=True)
 st.markdown(
     '<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#D4AF37;letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">Chapter 1</div>'
     '<div class="tl-section-title">League Economics</div>'
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'How has the auction market evolved? Where does the league\'s money actually go?</p>',
     unsafe_allow_html=True,
 )
@@ -101,14 +101,14 @@ if not draft.empty:
             ))
         fig1.update_layout(
             barmode="stack",
-            paper_bgcolor="#081120", plot_bgcolor="#081120",
-            font=dict(family="Inter", color="#A7B0BC", size=11),
-            xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1E2D40", color="#A7B0BC"),
-            yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC", title="Total Spend ($)"),
-            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC"), orientation="h", y=1.05),
+            paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+            font=dict(family="Inter", color="#B8C3B5", size=11),
+            xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1A3525", color="#B8C3B5"),
+            yaxis=dict(gridcolor="#1A3525", color="#B8C3B5", title="Total Spend ($)"),
+            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5"), orientation="h", y=1.05),
             margin=dict(l=10, r=10, t=30, b=10),
             height=300,
-            title=dict(text="Where the Money Goes — Spend by Position", font=dict(color="#A7B0BC", size=12), x=0),
+            title=dict(text="Where the Money Goes — Spend by Position", font=dict(color="#B8C3B5", size=12), x=0),
         )
         st.plotly_chart(fig1, use_container_width=True)
 
@@ -130,14 +130,14 @@ if not draft.empty:
                 marker=dict(size=6),
             ))
         fig2.update_layout(
-            paper_bgcolor="#081120", plot_bgcolor="#081120",
-            font=dict(family="Inter", color="#A7B0BC", size=11),
-            xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1E2D40", color="#A7B0BC"),
-            yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC", title="Average Price ($)"),
-            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC"), orientation="h", y=1.05),
+            paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+            font=dict(family="Inter", color="#B8C3B5", size=11),
+            xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1A3525", color="#B8C3B5"),
+            yaxis=dict(gridcolor="#1A3525", color="#B8C3B5", title="Average Price ($)"),
+            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5"), orientation="h", y=1.05),
             margin=dict(l=10, r=10, t=30, b=10),
             height=300,
-            title=dict(text="Position Inflation — Average Price Per Season", font=dict(color="#A7B0BC", size=12), x=0),
+            title=dict(text="Position Inflation — Average Price Per Season", font=dict(color="#B8C3B5", size=12), x=0),
         )
         st.plotly_chart(fig2, use_container_width=True)
 
@@ -183,7 +183,7 @@ st.markdown('<hr class="tl-divider-full">', unsafe_allow_html=True)
 st.markdown(
     '<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#D4AF37;letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">Chapter 2</div>'
     '<div class="tl-section-title">Owner Personalities</div>'
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'Everyone has a draft philosophy. This is where it shows.</p>',
     unsafe_allow_html=True,
 )
@@ -242,14 +242,14 @@ if not fresh.empty:
         ))
         fig3.update_layout(
             barmode="stack",
-            paper_bgcolor="#081120", plot_bgcolor="#081120",
-            font=dict(family="Inter", color="#A7B0BC", size=11),
-            xaxis=dict(gridcolor="#1E2D40", color="#A7B0BC"),
-            yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC", title="Avg Auction Spend Per Season ($)"),
-            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC"), orientation="h", y=1.05),
+            paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+            font=dict(family="Inter", color="#B8C3B5", size=11),
+            xaxis=dict(gridcolor="#1A3525", color="#B8C3B5"),
+            yaxis=dict(gridcolor="#1A3525", color="#B8C3B5", title="Avg Auction Spend Per Season ($)"),
+            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5"), orientation="h", y=1.05),
             margin=dict(l=10, r=10, t=30, b=80),
             height=320,
-            title=dict(text="Stars & Scrubs vs Balanced — Average Fresh Auction Spend (Per Season)", font=dict(color="#A7B0BC", size=12), x=0),
+            title=dict(text="Stars & Scrubs vs Balanced — Average Fresh Auction Spend (Per Season)", font=dict(color="#B8C3B5", size=12), x=0),
         )
         fig3.update_xaxes(tickangle=25)
         st.plotly_chart(fig3, use_container_width=True)
@@ -258,9 +258,9 @@ if not fresh.empty:
 
     archetype_colors = {
         "Stars & Scrubs": "#D4AF37",
-        "Balanced Builder": "#60A5FA",
+        "Balanced Builder": "#3FA66B",
         "Thrifty Strategist": "#10B981",
-        "The Pragmatist": "#A7B0BC",
+        "The Pragmatist": "#B8C3B5",
     }
 
     arch_rows = []
@@ -286,7 +286,7 @@ st.markdown('<hr class="tl-divider-full">', unsafe_allow_html=True)
 st.markdown(
     '<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#D4AF37;letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">Chapter 3</div>'
     '<div class="tl-section-title">Keeper Legends</div>'
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'The longest relationships in the league. Players someone refused to let go.</p>',
     unsafe_allow_html=True,
 )
@@ -309,12 +309,12 @@ if not chains.empty:
         chain_str = " → ".join(f"${p}" for p in prices_list)
         with cols[i % 3]:
             st.markdown(
-                f'<div style="background:#0F1B2D;border:1px solid {color}40;border-top:2px solid {color};'
+                f'<div style="background:#102418;border:1px solid {color}40;border-top:2px solid {color};'
                 f'border-radius:6px;padding:14px;margin-bottom:10px;height:165px;">'
-                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.52rem;color:#A7B0BC;letter-spacing:2px;text-transform:uppercase;">Kept {n_kept} years</div>'
-                f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.3rem;color:#F5F5F5;letter-spacing:2px;line-height:1.2;margin:3px 0;">{player}</div>'
+                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.52rem;color:#B8C3B5;letter-spacing:2px;text-transform:uppercase;">Kept {n_kept} years</div>'
+                f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.3rem;color:#F5F3EA;letter-spacing:2px;line-height:1.2;margin:3px 0;">{player}</div>'
                 f'<div style="font-family:\'Inter\',sans-serif;font-size:0.7rem;color:{color};margin-bottom:8px;">{emoji} {mgr}</div>'
-                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#A7B0BC;">${orig_p} original → ${final_p} final</div>'
+                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#B8C3B5;">${orig_p} original → ${final_p} final</div>'
                 f'<div style="font-family:\'Inter\',sans-serif;font-size:0.6rem;color:#D4AF37;margin-top:3px;">{chain_str}</div>'
                 f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#6B7280;margin-top:5px;">${total} total invested</div>'
                 f'</div>',
@@ -337,7 +337,7 @@ st.markdown('<hr class="tl-divider-full">', unsafe_allow_html=True)
 st.markdown(
     '<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#D4AF37;letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">Chapter 4</div>'
     '<div class="tl-section-title">The Biggest Bids</div>'
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'The moments when someone said: this player is worth everything.</p>',
     unsafe_allow_html=True,
 )
@@ -368,7 +368,7 @@ st.markdown('<hr class="tl-divider-full">', unsafe_allow_html=True)
 st.markdown(
     '<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#D4AF37;letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">Chapter 5</div>'
     '<div class="tl-section-title">Owner Spending by Season</div>'
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'How much each manager spent — on keepers vs. fresh auction picks — across every draft.</p>',
     unsafe_allow_html=True,
 )
@@ -403,15 +403,15 @@ if not draft.empty:
         if fresh_col is not None:
             fig4.add_trace(go.Bar(
                 x=mgr_szn_pivot.index, y=mgr_szn_pivot[False],
-                name="Fresh Auction", marker_color=MANAGER_COLORS.get(selected_mgr, "#1E3A5F"),
+                name="Fresh Auction", marker_color=MANAGER_COLORS.get(selected_mgr, "#1D3A2A"),
             ))
         fig4.update_layout(
             barmode="stack",
-            paper_bgcolor="#081120", plot_bgcolor="#081120",
-            font=dict(family="Inter", color="#A7B0BC", size=11),
-            xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1E2D40", color="#A7B0BC"),
-            yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC", title="$ Spent"),
-            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC"), orientation="h", y=1.05),
+            paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+            font=dict(family="Inter", color="#B8C3B5", size=11),
+            xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1A3525", color="#B8C3B5"),
+            yaxis=dict(gridcolor="#1A3525", color="#B8C3B5", title="$ Spent"),
+            legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5"), orientation="h", y=1.05),
             margin=dict(l=10, r=10, t=30, b=10),
             height=260,
         )
@@ -452,7 +452,7 @@ st.markdown('<hr class="tl-divider-full">', unsafe_allow_html=True)
 st.markdown(
     '<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#D4AF37;letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">Chapter 6</div>'
     '<div class="tl-section-title">Market Value Explorer</div>'
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'Pick any player. See how the league valued them — every bid, every keeper, every time they changed hands.</p>',
     unsafe_allow_html=True,
 )
@@ -478,7 +478,7 @@ if not draft.empty:
                         x=fresh_rows["season"], y=fresh_rows["auction_price"],
                         mode="markers",
                         name="Auction Bid",
-                        marker=dict(color="#60A5FA", size=14, symbol="circle"),
+                        marker=dict(color="#3FA66B", size=14, symbol="circle"),
                         text=[f'{MANAGER_EMOJI.get(m,"")} {m}' for m in fresh_rows["manager"]],
                         hovertemplate="<b>%{text}</b><br>%{x}: $%{y}<extra></extra>",
                     ))
@@ -503,11 +503,11 @@ if not draft.empty:
                         ))
 
                 fig5.update_layout(
-                    paper_bgcolor="#081120", plot_bgcolor="#081120",
-                    font=dict(family="Inter", color="#A7B0BC", size=11),
-                    xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1E2D40", color="#A7B0BC", title="Season"),
-                    yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC", title="Price ($)"),
-                    legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC")),
+                    paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+                    font=dict(family="Inter", color="#B8C3B5", size=11),
+                    xaxis=dict(tickmode="array", tickvals=seasons_played, gridcolor="#1A3525", color="#B8C3B5", title="Season"),
+                    yaxis=dict(gridcolor="#1A3525", color="#B8C3B5", title="Price ($)"),
+                    legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5")),
                     margin=dict(l=10, r=10, t=20, b=10),
                     height=280,
                 )
@@ -526,16 +526,16 @@ if not draft.empty:
                 color     = MANAGER_COLORS.get(mgr, "#6B7280")
                 emoji     = MANAGER_EMOJI.get(mgr, "👤")
                 tag       = "KEPT" if is_keeper else ("TRADED" if (prev_mgr and prev_mgr != mgr) else "DRAFTED")
-                tag_color = "#D4AF37" if is_keeper else ("#A78BFA" if tag == "TRADED" else "#60A5FA")
+                tag_color = "#D4AF37" if is_keeper else ("#A78BFA" if tag == "TRADED" else "#3FA66B")
 
                 if prev_mgr is not None:
                     arrow = "↔" if prev_mgr != mgr else "→"
-                    journey_html += f'<div style="color:#A7B0BC;font-size:{1.2 if arrow=="↔" else 0.8}rem;padding:0 2px;">{arrow}</div>'
+                    journey_html += f'<div style="color:#B8C3B5;font-size:{1.2 if arrow=="↔" else 0.8}rem;padding:0 2px;">{arrow}</div>'
 
                 journey_html += (
-                    f'<div style="background:#0F1B2D;border:1px solid {color}60;border-radius:6px;padding:8px 12px;text-align:center;min-width:80px;">'
+                    f'<div style="background:#102418;border:1px solid {color}60;border-radius:6px;padding:8px 12px;text-align:center;min-width:80px;">'
                     f'<div style="font-family:\'Inter\',sans-serif;font-size:0.5rem;color:{tag_color};letter-spacing:2px;">{tag}</div>'
-                    f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#F5F5F5;">{szn}</div>'
+                    f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#F5F3EA;">{szn}</div>'
                     f'<div style="font-size:0.8rem;">{emoji}</div>'
                     f'<div style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:{color};">{mgr}</div>'
                     f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.1rem;color:#D4AF37;">${price}</div>'
@@ -591,7 +591,7 @@ if not draft.empty:
     st.markdown(html_table(["Season", "Player", "Pos", "Manager", "Price"], log_rows), unsafe_allow_html=True)
     if len(filtered) > 100:
         st.markdown(
-            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.7rem;color:#A7B0BC;text-align:center;padding:8px;">Showing first 100 of {len(filtered)} picks. Use filters above to narrow results.</div>',
+            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.7rem;color:#B8C3B5;text-align:center;padding:8px;">Showing first 100 of {len(filtered)} picks. Use filters above to narrow results.</div>',
             unsafe_allow_html=True,
         )
 

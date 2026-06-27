@@ -149,12 +149,12 @@ if not h2h.empty:
         pct    = f"{row['win_pct']:.0%}"
         color  = MANAGER_COLORS.get(opp, "#6B7280")
         return (
-            f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid {color};'
+            f'<div style="background:#102418;border:1px solid #1A3525;border-left:4px solid {color};'
             f'border-radius:6px;padding:10px 14px;margin-bottom:6px;">'
             f'<span style="font-size:1rem;">{emoji}</span> '
-            f'<span style="font-family:\'Inter\',sans-serif;font-size:0.85rem;color:#F5F5F5;font-weight:600;">{opp}</span>'
+            f'<span style="font-family:\'Inter\',sans-serif;font-size:0.85rem;color:#F5F3EA;font-weight:600;">{opp}</span>'
             f'<span style="float:right;font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#D4AF37;letter-spacing:2px;">'
-            f'{w}–{l} &nbsp;<span style="font-size:0.7rem;color:#A7B0BC;">({pct})</span></span>'
+            f'{w}–{l} &nbsp;<span style="font-size:0.7rem;color:#B8C3B5;">({pct})</span></span>'
             f'</div>'
         )
 
@@ -178,7 +178,7 @@ if not h2h.empty:
 
     if len(even_games) > 0:
         st.markdown(
-            '<div style="font-family:\'Inter\',sans-serif;font-size:0.6rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;margin:12px 0 8px;">Even Record</div>',
+            '<div style="font-family:\'Inter\',sans-serif;font-size:0.6rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;margin:12px 0 8px;">Even Record</div>',
             unsafe_allow_html=True,
         )
         for _, row in even_games.iterrows():
@@ -242,11 +242,11 @@ if not mgr_keepers.empty:
             years_str  = " → ".join(f"{int(r['season'])} (${int(r['auction_price'])})" for _, r in chain.iterrows())
             pos        = chain.iloc[0]["position"]
             st.markdown(
-                f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid #D4AF37;'
+                f'<div style="background:#102418;border:1px solid #1A3525;border-left:4px solid #D4AF37;'
                 f'border-radius:6px;padding:10px 14px;margin-bottom:6px;">'
-                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.85rem;color:#F5F5F5;font-weight:600;">{player}</span>'
-                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#A7B0BC;margin-left:8px;">{pos}</span>'
-                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#A7B0BC;margin-top:4px;">{years_str}</div>'
+                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.85rem;color:#F5F3EA;font-weight:600;">{player}</span>'
+                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#B8C3B5;margin-left:8px;">{pos}</span>'
+                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#B8C3B5;margin-top:4px;">{years_str}</div>'
                 f'</div>',
                 unsafe_allow_html=True,
             )

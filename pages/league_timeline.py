@@ -31,7 +31,7 @@ CAT_COLORS = {
     "keeper":       "#10B981",
     "auction":      "#F97316",
     "rivalry":      "#F87171",
-    "manual":       "#60A5FA",
+    "manual":       "#3FA66B",
 }
 CAT_LABELS = {
     "championship": "CHAMPION",
@@ -52,7 +52,7 @@ st.markdown(
     <div class="tl-hero">
         <div class="tl-hero-title">THE TIMELINE</div>
         <div class="tl-hero-subtitle">Eight years of championship chases, keeper dynasties, and 0.02-point heartbreaks.</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#A7B0BC;
+        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#B8C3B5;
                     margin-top:1.1rem;letter-spacing:1px;font-style:italic;line-height:1.8;">
             {FOUNDED} – {CURRENT_SEASON} &nbsp;·&nbsp; {total_seasons} Seasons &nbsp;·&nbsp; {unique_champs} Unique Champions
         </div>
@@ -66,7 +66,7 @@ st.markdown(
 if seasons:
     jump_links = "".join(
         f'<a href="#season-{s}" style="font-family:\'Inter\',sans-serif;font-size:0.7rem;'
-        f'color:#A7B0BC;text-decoration:none;padding:4px 10px;border:1px solid #1E2D40;'
+        f'color:#B8C3B5;text-decoration:none;padding:4px 10px;border:1px solid #1A3525;'
         f'border-radius:3px;white-space:nowrap;" target="_self">{s}</a>'
         for s in seasons
     )
@@ -94,7 +94,7 @@ def champ_card(evt: pd.Series, szn: int) -> str:
         title_label = "CHAMPION"
 
     return f"""
-    <div id="champ-{szn}" style="background:linear-gradient(135deg,#0F1B2D 0%,#0A1628 100%);
+    <div id="champ-{szn}" style="background:linear-gradient(135deg,#102418 0%,#0B1B13 100%);
          border:2px solid {color};border-radius:10px;padding:24px 28px;margin-bottom:16px;
          position:relative;overflow:hidden;">
         <div style="position:absolute;top:0;right:0;width:120px;height:120px;
@@ -104,18 +104,18 @@ def champ_card(evt: pd.Series, szn: int) -> str:
                 <div style="font-family:'Inter',sans-serif;font-size:0.52rem;color:{color};letter-spacing:4px;text-transform:uppercase;margin-bottom:4px;">
                     🏆 {szn} CHAMPION &nbsp;·&nbsp; {title_label}
                 </div>
-                <div style="font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#F5F5F5;
+                <div style="font-family:'Bebas Neue',sans-serif;font-size:2.6rem;color:#F5F3EA;
                      letter-spacing:3px;line-height:1;margin-bottom:6px;">
                     {emoji} {mgr}
                 </div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.78rem;color:#C9D4DF;line-height:1.6;max-width:480px;">
+                <div style="font-family:'Inter',sans-serif;font-size:0.78rem;color:#C5D4C0;line-height:1.6;max-width:480px;">
                     {desc}
                 </div>
             </div>
             <div style="text-align:center;min-width:80px;">
                 <div style="font-family:'Bebas Neue',sans-serif;font-size:3rem;color:{color};
                      letter-spacing:2px;line-height:1;">{detail.split('–')[0].strip()}</div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.52rem;color:#A7B0BC;letter-spacing:3px;">FINAL SCORE</div>
+                <div style="font-family:'Inter',sans-serif;font-size:0.52rem;color:#B8C3B5;letter-spacing:3px;">FINAL SCORE</div>
             </div>
         </div>
     </div>
@@ -130,13 +130,13 @@ def event_card(evt: pd.Series) -> str:
     desc   = evt["description"]
 
     return f"""
-    <div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:3px solid {color};
+    <div style="background:#102418;border:1px solid #1A3525;border-left:3px solid {color};
          border-radius:6px;padding:12px 14px;margin-bottom:8px;height:100%;">
         <div style="font-family:'Inter',sans-serif;font-size:0.48rem;color:{color};
              letter-spacing:3px;text-transform:uppercase;margin-bottom:4px;">{emoji} {label}</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.78rem;color:#F5F5F5;
+        <div style="font-family:'Inter',sans-serif;font-size:0.78rem;color:#F5F3EA;
              font-weight:600;margin-bottom:5px;line-height:1.3;">{title}</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.68rem;color:#A7B0BC;line-height:1.5;">{desc}</div>
+        <div style="font-family:'Inter',sans-serif;font-size:0.68rem;color:#B8C3B5;line-height:1.5;">{desc}</div>
     </div>
     """
 
@@ -161,9 +161,9 @@ for szn in seasons:
             <div style="font-family:'Bebas Neue',sans-serif;font-size:3.2rem;color:{champ_color};
                  letter-spacing:4px;line-height:1;">{szn}</div>
             <div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.52rem;color:#A7B0BC;
+                <div style="font-family:'Inter',sans-serif;font-size:0.52rem;color:#B8C3B5;
                      letter-spacing:3px;text-transform:uppercase;">Season {szn_num} of {total_seasons}</div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.85rem;color:#C9D4DF;">
+                <div style="font-family:'Inter',sans-serif;font-size:0.85rem;color:#C5D4C0;">
                     {champ_emoji} {champ_mgr} won the championship
                 </div>
             </div>
@@ -201,8 +201,8 @@ st.markdown('<hr class="tl-divider-full">', unsafe_allow_html=True)
 # Back to top
 st.markdown(
     '<div style="text-align:center;padding:12px 0;">'
-    '<a href="#" style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#A7B0BC;'
-    'letter-spacing:2px;text-decoration:none;border:1px solid #1E2D40;padding:8px 20px;border-radius:4px;">'
+    '<a href="#" style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#B8C3B5;'
+    'letter-spacing:2px;text-decoration:none;border:1px solid #1A3525;padding:8px 20px;border-radius:4px;">'
     '↑ BACK TO TOP</a></div>',
     unsafe_allow_html=True,
 )

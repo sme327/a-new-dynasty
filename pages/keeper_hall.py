@@ -31,7 +31,7 @@ st.markdown(
     <div class="tl-hero">
         <div class="tl-hero-title">KEEPER HALL</div>
         <div class="tl-hero-subtitle">Seven years of loyalty, rising costs, and the players nobody could let go.</div>
-        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#A7B0BC;
+        <div style="font-family:'Inter',sans-serif;font-size:0.88rem;color:#B8C3B5;
                     margin-top:1.1rem;letter-spacing:1px;font-style:italic;line-height:1.8;">
             In an auction league, every keeper tells a story about trust.
         </div>
@@ -71,7 +71,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.markdown(
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.5rem;">'
     'Players kept for the most consecutive seasons — the ultimate test of loyalty and value.</p>',
     unsafe_allow_html=True,
 )
@@ -95,28 +95,28 @@ def _chain_card(chain_row, rank: int):
     for i, (szn, prc) in enumerate(zip(seasons, prices)):
         is_orig = not chain_row["seasons_is_keeper"][i] if "seasons_is_keeper" in chain_row else (i == 0)
         tag = "ORIG" if i == 0 else "KEPT"
-        tag_color = "#A7B0BC" if i == 0 else "#D4AF37"
+        tag_color = "#B8C3B5" if i == 0 else "#D4AF37"
         timeline_html += (
             f'<div style="text-align:center;padding:0 6px;">'
             f'<div style="font-family:\'Inter\',sans-serif;font-size:0.52rem;color:{tag_color};letter-spacing:2px;">{tag}</div>'
-            f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:0.9rem;color:#F5F5F5;letter-spacing:1px;">{szn}</div>'
+            f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:0.9rem;color:#F5F3EA;letter-spacing:1px;">{szn}</div>'
             f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.1rem;color:#D4AF37;">${prc}</div>'
             f'</div>'
         )
         if i < len(seasons) - 1:
-            timeline_html += '<div style="color:#A7B0BC;font-size:0.75rem;padding-top:16px;">→</div>'
+            timeline_html += '<div style="color:#B8C3B5;font-size:0.75rem;padding-top:16px;">→</div>'
 
     return f"""
-    <div style="background:#0F1B2D;border:{border};border-radius:8px;padding:20px 24px;margin-bottom:12px;">
+    <div style="background:#102418;border:{border};border-radius:8px;padding:20px 24px;margin-bottom:12px;">
         <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;margin-bottom:14px;">
             <div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.55rem;color:#A7B0BC;letter-spacing:3px;text-transform:uppercase;">{"🥇" if rank==1 else f"#{rank}"} Keeper Chain · {pos}</div>
-                <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#F5F5F5;letter-spacing:2px;line-height:1.1;">{player}</div>
+                <div style="font-family:'Inter',sans-serif;font-size:0.55rem;color:#B8C3B5;letter-spacing:3px;text-transform:uppercase;">{"🥇" if rank==1 else f"#{rank}"} Keeper Chain · {pos}</div>
+                <div style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#F5F3EA;letter-spacing:2px;line-height:1.1;">{player}</div>
                 <div style="font-family:'Inter',sans-serif;font-size:0.8rem;color:{color};margin-top:2px;">{emoji} {mgr}</div>
             </div>
             <div style="text-align:right;">
                 <div style="font-family:'Bebas Neue',sans-serif;font-size:2.5rem;color:#D4AF37;letter-spacing:2px;line-height:1;">{n_kept}</div>
-                <div style="font-family:'Inter',sans-serif;font-size:0.55rem;color:#A7B0BC;letter-spacing:2px;">KEEPER SEASONS</div>
+                <div style="font-family:'Inter',sans-serif;font-size:0.55rem;color:#B8C3B5;letter-spacing:2px;">KEEPER SEASONS</div>
                 <div style="font-family:'Inter',sans-serif;font-size:0.7rem;color:#6B7280;margin-top:4px;">Total invested: ${total_sp}</div>
             </div>
         </div>
@@ -166,10 +166,10 @@ if not keepers.empty:
         bar_w = int((total / max_k) * 200)
         st.markdown(
             f'<div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">'
-            f'<div style="width:140px;font-family:\'Inter\',sans-serif;font-size:0.78rem;color:#F5F5F5;text-align:right;">'
+            f'<div style="width:140px;font-family:\'Inter\',sans-serif;font-size:0.78rem;color:#F5F3EA;text-align:right;">'
             f'{emoji} {mgr}</div>'
             f'<div style="height:22px;width:{bar_w}px;background:{color};border-radius:3px;min-width:2px;"></div>'
-            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#A7B0BC;">'
+            f'<div style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#B8C3B5;">'
             f'{total} keepers &nbsp;·&nbsp; ${spend} total &nbsp;·&nbsp; ${avg_c:.1f} avg</div>'
             f'</div>',
             unsafe_allow_html=True,
@@ -210,15 +210,15 @@ if not keepers.empty:
             ))
             fig.add_trace(go.Bar(
                 x=econ["season"], y=econ["fresh_spend"],
-                name="Fresh Auction $", marker_color="#1E3A5F",
+                name="Fresh Auction $", marker_color="#1D3A2A",
             ))
             fig.update_layout(
                 barmode="stack",
-                paper_bgcolor="#081120", plot_bgcolor="#081120",
-                font=dict(family="Inter", color="#A7B0BC", size=11),
-                xaxis=dict(tickmode="array", tickvals=list(econ["season"]), gridcolor="#1E2D40", color="#A7B0BC"),
-                yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC", title="Total League Spend ($)"),
-                legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC")),
+                paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+                font=dict(family="Inter", color="#B8C3B5", size=11),
+                xaxis=dict(tickmode="array", tickvals=list(econ["season"]), gridcolor="#1A3525", color="#B8C3B5"),
+                yaxis=dict(gridcolor="#1A3525", color="#B8C3B5", title="Total League Spend ($)"),
+                legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5")),
                 margin=dict(l=10, r=10, t=20, b=10),
                 height=280,
             )
@@ -285,17 +285,17 @@ if not keepers.empty:
     ).reset_index().sort_values("count", ascending=False)
 
     p_cols = st.columns(4)
-    pos_colors = {"QB": "#D4AF37", "RB": "#60A5FA", "WR": "#EC4899", "TE": "#10B981"}
+    pos_colors = {"QB": "#D4AF37", "RB": "#3FA66B", "WR": "#EC4899", "TE": "#10B981"}
     for col, (_, prow) in zip(p_cols, pos_totals.iterrows()):
         pc = pos_colors.get(prow["position"], "#6B7280")
         with col:
             st.markdown(
-                f'<div style="background:#0F1B2D;border:1px solid {pc}40;border-top:3px solid {pc};'
+                f'<div style="background:#102418;border:1px solid {pc}40;border-top:3px solid {pc};'
                 f'border-radius:6px;padding:14px;text-align:center;">'
                 f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.8rem;color:{pc};letter-spacing:2px;">{prow["position"]}</div>'
-                f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:2.5rem;color:#F5F5F5;">{int(prow["count"])}</div>'
-                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#A7B0BC;letter-spacing:2px;text-transform:uppercase;">keepers</div>'
-                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.68rem;color:#A7B0BC;margin-top:6px;">${prow["avg_price"]:.1f} avg · ${int(prow["total_spend"]):,} total</div>'
+                f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:2.5rem;color:#F5F3EA;">{int(prow["count"])}</div>'
+                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.58rem;color:#B8C3B5;letter-spacing:2px;text-transform:uppercase;">keepers</div>'
+                f'<div style="font-family:\'Inter\',sans-serif;font-size:0.68rem;color:#B8C3B5;margin-top:6px;">${prow["avg_price"]:.1f} avg · ${int(prow["total_spend"]):,} total</div>'
                 f'</div>',
                 unsafe_allow_html=True,
             )
@@ -309,7 +309,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.markdown(
-    '<p style="font-family:\'Inter\',sans-serif;color:#A7B0BC;font-size:0.78rem;margin:-0.5rem 0 1.2rem;">'
+    '<p style="font-family:\'Inter\',sans-serif;color:#B8C3B5;font-size:0.78rem;margin:-0.5rem 0 1.2rem;">'
     'Pick any player to see their complete auction history — who had them, at what price, and every time they changed hands.</p>',
     unsafe_allow_html=True,
 )
@@ -332,17 +332,17 @@ if selected_player:
             color     = MANAGER_COLORS.get(mgr, "#6B7280")
             emoji     = MANAGER_EMOJI.get(mgr, "👤")
             tag       = "KEPT" if is_keeper else ("TRADED" if (prev_mgr and prev_mgr != mgr) else "DRAFTED")
-            tag_color = "#D4AF37" if is_keeper else ("#A78BFA" if tag == "TRADED" else "#60A5FA")
+            tag_color = "#D4AF37" if is_keeper else ("#A78BFA" if tag == "TRADED" else "#3FA66B")
 
             if prev_mgr and prev_mgr != mgr:
-                journey_html += '<div style="color:#A7B0BC;font-size:1.2rem;padding:0 4px;">↔</div>'
+                journey_html += '<div style="color:#B8C3B5;font-size:1.2rem;padding:0 4px;">↔</div>'
             elif prev_mgr:
-                journey_html += '<div style="color:#A7B0BC;font-size:0.8rem;padding:0 2px;">→</div>'
+                journey_html += '<div style="color:#B8C3B5;font-size:0.8rem;padding:0 2px;">→</div>'
 
             journey_html += (
-                f'<div style="background:#0F1B2D;border:1px solid {color}60;border-radius:6px;padding:8px 12px;text-align:center;min-width:80px;">'
+                f'<div style="background:#102418;border:1px solid {color}60;border-radius:6px;padding:8px 12px;text-align:center;min-width:80px;">'
                 f'<div style="font-family:\'Inter\',sans-serif;font-size:0.5rem;color:{tag_color};letter-spacing:2px;">{tag}</div>'
-                f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#F5F5F5;">{szn}</div>'
+                f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1rem;color:#F5F3EA;">{szn}</div>'
                 f'<div style="font-size:0.8rem;">{emoji}</div>'
                 f'<div style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:{color};">{mgr}</div>'
                 f'<div style="font-family:\'Bebas Neue\',sans-serif;font-size:1.1rem;color:#D4AF37;">${price}</div>'
@@ -358,14 +358,14 @@ if selected_player:
         if not player_chain.empty:
             c = player_chain.iloc[0]
             st.markdown(
-                f'<div style="background:#0F1B2D;border:1px solid #1E2D40;border-left:4px solid #D4AF37;'
+                f'<div style="background:#102418;border:1px solid #1A3525;border-left:4px solid #D4AF37;'
                 f'border-radius:6px;padding:12px 16px;max-width:600px;">'
-                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#A7B0BC;">Original acquisition: </span>'
-                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#F5F5F5;">'
+                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#B8C3B5;">Original acquisition: </span>'
+                f'<span style="font-family:\'Inter\',sans-serif;font-size:0.72rem;color:#F5F3EA;">'
                 f'${c["original_price"]} in {c["original_season"]} by {MANAGER_EMOJI.get(c["manager"],"")} {c["manager"]}</span>'
-                f'&nbsp; &nbsp; <span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#A7B0BC;">Keeper seasons: </span>'
+                f'&nbsp; &nbsp; <span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#B8C3B5;">Keeper seasons: </span>'
                 f'<span style="font-family:\'Bebas Neue\',sans-serif;font-size:0.9rem;color:#D4AF37;">{c["keeper_seasons"]}</span>'
-                f'&nbsp; &nbsp; <span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#A7B0BC;">Total invested: </span>'
+                f'&nbsp; &nbsp; <span style="font-family:\'Inter\',sans-serif;font-size:0.65rem;color:#B8C3B5;">Total invested: </span>'
                 f'<span style="font-family:\'Bebas Neue\',sans-serif;font-size:0.9rem;color:#D4AF37;">${c["total_spend"]}</span>'
                 f'</div>',
                 unsafe_allow_html=True,

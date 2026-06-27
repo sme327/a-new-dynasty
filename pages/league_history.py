@@ -127,7 +127,7 @@ try:
     fig.add_trace(go.Scatter(
         x=season_scoring["season"], y=season_scoring["avg"],
         name="League Avg", mode="lines+markers",
-        line=dict(color="#60A5FA", width=2, dash="dot"),
+        line=dict(color="#3FA66B", width=2, dash="dot"),
         marker=dict(size=5),
     ))
     fig.add_trace(go.Scatter(
@@ -137,11 +137,11 @@ try:
         marker=dict(size=4),
     ))
     fig.update_layout(
-        paper_bgcolor="#081120", plot_bgcolor="#081120",
-        font=dict(family="Inter", color="#A7B0BC", size=11),
-        xaxis=dict(tickmode="array", tickvals=list(season_scoring["season"]), gridcolor="#1E2D40", color="#A7B0BC"),
-        yaxis=dict(gridcolor="#1E2D40", color="#A7B0BC"),
-        legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#A7B0BC")),
+        paper_bgcolor="#07120D", plot_bgcolor="#07120D",
+        font=dict(family="Inter", color="#B8C3B5", size=11),
+        xaxis=dict(tickmode="array", tickvals=list(season_scoring["season"]), gridcolor="#1A3525", color="#B8C3B5"),
+        yaxis=dict(gridcolor="#1A3525", color="#B8C3B5"),
+        legend=dict(bgcolor="rgba(0,0,0,0)", font=dict(color="#B8C3B5")),
         margin=dict(l=10, r=10, t=20, b=10),
         height=320,
     )
